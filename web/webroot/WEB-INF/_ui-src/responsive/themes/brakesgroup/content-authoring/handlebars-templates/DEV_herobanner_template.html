@@ -1,0 +1,44 @@
+<div class="amp-herobanner">
+  <picture class="product-item__picture flex position-absolute">
+    <source
+      data-size="tablet"
+      data-srcset="https://i1.adis.ws/i/{{encodeURI image.endpoint}}/{{image.name}}?$ca-hero-banner$&fmt=webp"
+      media="(min-width: 768px)"
+      type="image/webp"
+    />
+    <source
+      data-size="mobile"
+      data-srcset="https://i1.adis.ws/i/{{encodeURI imageMobile.endpoint}}/{{imageMobile.name}}?$ca-hero-banner-mobile$&fmt=webp"
+      type="image/webp"
+    />
+    <img
+      class="lazyload"
+      data-sizes="auto"
+      data-src="https://i1.adis.ws/i/{{encodeURI image.endpoint}}/{{image.name}}?$ca-hero-banner$"
+      alt="{{image.name}}"
+      title="{{image.name}}"
+    />
+    <div class="loader__image"></div>
+  </picture>
+  {{#or heading textBox ctaText}}
+  <div class="amp-herobanner--spacing">
+    <div class="amp-herobanner__box amp-herobanner__box--align-{{textBoxAlignment}}">
+      {{#if heading}}
+      <div class="amp__heading">
+        <h2 class="amp__heading-text amp__heading-text--align-{{headingAlignment}} amp__heading-underline--color-{{headingUnderlineColour}}">
+          {{heading}}
+        </h2>
+      </div>
+      {{/if}} {{#if textBox}}
+      <p class="amp-herobanner__box-text amp-herobanner__box-text--align-{{textAlignment}}">{{textBox}}</p>
+      {{/if}} {{#if ctaText}}
+      <a
+        class="amp-herobanner__box-btn btn btn-{{ctaType}} {{#if ctaBackgroundColour}}cta-background--{{ctaBackgroundColour}}{{/if}} {{#if ctaForegroundColour}} cta-foreground--{{ctaForegroundColour}}{{/if}}"
+        href="{{ctaLink}}"
+        >{{ctaText}}</a
+      >
+      {{/if}}
+    </div>
+  </div>
+  {{/or}}
+</div>

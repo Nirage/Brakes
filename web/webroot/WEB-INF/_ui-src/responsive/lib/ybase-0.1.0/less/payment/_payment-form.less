@@ -1,0 +1,43 @@
+.payment-form {
+    &__popup {
+        width: 700px;
+        height: 600px;
+    }
+    &__labelHeading {
+        .font-primary-bold;
+    }
+    &__val {
+        padding-left: 6px;
+    }
+    &__iconHolder {
+        display: flex;
+    }
+    &__icon {
+        padding-right:12px;
+    }
+    &__iconRed{       
+        color: @brand-warning;
+    }
+    &__iconOrange{       
+        color: @orange;
+    }
+    &__iconGreen{       
+        color: @brand-primary;
+    }
+    &__iconTrash {
+        cursor: pointer;
+    }    
+}
+
+
+.payment-dropdown {
+    .form-dropdown;
+
+    &__card-name {
+        width: calc(~"100% - 50px");
+        overflow: hidden;
+        float: left;
+    }
+
+}
+

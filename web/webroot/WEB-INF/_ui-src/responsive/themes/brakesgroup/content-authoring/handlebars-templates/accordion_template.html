@@ -1,0 +1,6 @@
+<div class="accordion-group js-accordionColumn" data-column="left" id="{{accordionId}}" role="tablist">
+    {{#each chooser}}
+        {{> accordion-tab_template parentId=../accordionId tabIndex=@index}}
+    {{/each}}
+</div>
+

@@ -1,0 +1,28 @@
+//
+// Breadcrumbs
+// --------------------------------------------------
+
+.breadcrumb-section {
+  background: @breadcrumb-bg;
+
+  .breadcrumb {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 10px;
+    }
+    text-transform: capitalize;
+    a {
+      text-decoration: underline;
+    }
+
+    + .breadcrmb:before {
+      content: "@{breadcrumb-separator}";
+    }
+
+    > .active::before {
+      .font-primary;
+    }
+  }
+}

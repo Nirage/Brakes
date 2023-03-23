@@ -1,0 +1,28 @@
+@__promo-arrow-size: 25px;
+.promo-arrow {
+  overflow: hidden;
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  display: block;
+  border-color: transparent;
+  border-style: solid;
+  border-bottom-color: @promo-item-background;
+  border-width: 2px;
+  top: -30px;
+  left: 50%;
+  margin-left: -20px;
+  &:after {
+    content: "";
+    position: absolute;
+    width: @__promo-arrow-size;
+    height: @__promo-arrow-size;
+    background: @promo-item-background;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 5px;
+    bottom: -11px;
+    -webkit-box-shadow: inset 0px 1px 10px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 10px -1px rgba(0, 0, 0, 0.2);
+  }
+}

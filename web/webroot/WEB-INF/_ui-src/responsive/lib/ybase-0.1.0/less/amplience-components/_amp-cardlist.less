@@ -1,0 +1,31 @@
+.amp-cardlist {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &--5-col {
+    @media @tablet {
+      width: 20%;
+    }
+  }
+
+  &.row {
+    &:before {
+      display: initial;
+      display: auto;
+    }
+  }
+  & > [class*="col-"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .col-sm-4 {
+    @media only screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      max-width: 33%;
+    }
+  }
+}

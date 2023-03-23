@@ -1,0 +1,267 @@
+.product-details {
+  &__divider {
+    height: 1px;
+    width: calc(~'100% - 20px');
+    color: @border-color;
+    margin: 5px 0 5px 10px;
+    clear: both;
+  }
+  &__code {
+    .font-primary-bold;
+    font-size: 18px;
+  }
+  &__name {
+    .font-primary-bold;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  &__price-panel {
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+
+  &__price-panel-actions {
+    float: right;
+  }
+
+  &__size {
+    margin-bottom: 10px;
+    @media (min-width: @screen-sm-min) {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      float: left;
+    }
+  }
+
+  &__stock-msg {
+    padding: 3px 6px;
+    background-color: @brand-gray-light;
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: @screen-md-min) {
+      width: auto;
+      text-align: left;
+    }
+  }
+
+  &__price-wrapper {
+    float: right;
+  }
+
+  &__add-to-cart {
+    float: right;
+    margin-left: 13px;
+
+    @media @tablet {
+      .cart__quantity {
+        .p0;
+        .mb1;
+      }
+    }
+  }
+
+  &__add-to-cart-btn,
+  &__quantity-update {
+    width: 150px;
+  }
+
+  &__nectar-points {
+    @media (max-width: @screen-xs-max) {
+      border-bottom: 1px solid @brand-gray-medium;
+      border-top: 1px solid @brand-gray-medium;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  &__accordions {
+    margin-top: 10px;
+
+    .accordion {
+      min-height: 68px;
+    }
+  }
+
+  &__readmore,
+  &__readless {
+    .font-primary-bold;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+    display: block;
+
+    @media (min-width: @screen-sm-min) {
+      margin-top: 20px;
+    }
+  }
+
+  &__icons-row {
+    clear: both;
+    margin-top: 20px;
+  }
+
+  &__icons {
+    display: flex;
+  }
+
+  &__promo-icon {
+    margin-right: 6px;
+  }
+
+  &__advice-icons {
+    img:not(:last-of-type) {
+      margin-right: 6px;
+    }
+  }
+
+  &__promo-icon,
+  &__advice-icons {
+    img {
+      margin-right: 6px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.product-size {
+  &__item {
+    .font-primary-bold;
+    font-size: 16px;
+
+    &:nth-of-type(2) {
+      margin-left: 30px;
+    }
+
+    &--size-pack {
+      line-height: 28px;
+    }
+
+    &--size-case {
+      .font-primary;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.product-details-price {
+  text-align: right;
+
+  &.recalculated {
+    color: @brand-primary;
+
+    a {
+      color: @brand-primary;
+    }
+
+    .product-details-price__price-each {
+      color: @brand-primary;
+    }
+
+    .is-weighted-product {
+      color: @brand-primary;
+    }
+  }
+
+  &--was-price {
+    display: block;
+    font-size: 16px;
+    text-decoration: line-through;
+
+    @media (min-width: @screen-sm-min) {
+      font-size: 18px;
+    }
+
+    &-each {
+      font-size: 16px;
+    }
+  }
+
+  &--current-price {
+    .font-primary-bold;
+    font-size: 22px;
+    white-space: nowrap;
+
+    @media (min-width: @screen-sm-min) {
+      font-size: 24px;
+    }
+
+    &.is-weighted-product {
+      color: @brand-gray-dark;
+    }
+
+    .has-was-price & {
+      color: @brand-warning;
+    }
+  }
+
+  &__price-each {
+    font-size: 12px;
+    color: @brand-gray;
+    line-height: 1;
+    float: right;
+    .font-primary;
+
+    @media (min-width: @screen-sm-min) {
+      float: none;
+      font-size: 16px;
+    }
+
+    &.is-weighted-product {
+      color: @brand-gray-dark;
+    }
+
+    .has-was-price & {
+      color: @brand-warning;
+    }
+  }
+}
+.add-to-favourites {
+  cursor: pointer;
+  float: right;
+  vertical-align: middle;
+
+  a {
+    text-decoration: none;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__icon {
+    float: left;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  &__text {
+    .font-primary-bold;
+    color: @brand-gray;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .icon-Heart,
+  .icon-heart-filled {
+    &:before {
+      color: @brand-primary;
+    }
+  }
+}

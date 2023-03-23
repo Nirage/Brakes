@@ -1,0 +1,73 @@
+.sales-local {
+  &__title {
+    color: @gray-dark;
+    .font-primary-bold;
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  &__rectangle {
+    height: 4px;
+    width: 71px;
+    background-color: @brand-primary;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    &--align-left {
+      margin-left: 0;
+    }
+  }
+  &__text {
+    color: @gray-dark;
+    .font-primary;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  &__list {
+    margin-bottom: 24px;
+    li {
+      color: @gray-dark;
+      .font-primary-bold;
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+  }
+  &__section-header {
+    background-color: @brand-gray-light;
+    padding: 8px 20px;
+    margin-bottom: 28px;
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    color: @brand-gray-dark;
+    position: relative;
+  }
+  &__input-group {
+    width: 100%;
+    .form-control[name="postCode"] {
+      text-transform: uppercase;
+    }
+    .btn {
+      line-height: 1.325;
+    }
+    @media (min-width: @screen-sm-min) {
+      width: 60% !important;
+    }
+    @media (min-width: @screen-md-max) {
+      width: 40% !important;
+    }
+  }
+  &__data {
+    clear: both;
+  }
+  &__name {
+    color: @gray-dark;
+    .font-primary-bold;
+    font-size: 32px;
+    text-transform: capitalize;
+  }
+  &__info {
+    color: @gray-dark;
+    .font-primary;
+    font-size: 26px;
+  }
+}

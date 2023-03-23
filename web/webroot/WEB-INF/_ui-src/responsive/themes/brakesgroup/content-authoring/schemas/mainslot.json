@@ -1,0 +1,39 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/mainslot.json",
+  "title": "All accelerators",
+  "description": "All accelerators",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "chooser": {
+      "title": "Array of content-items",
+      "description": "A chooser list",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Chooser list",
+        "description": "A chooser list",
+        "allOf": [
+          {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          {
+            "properties": {
+              "contentType": {
+                "title": "Select accelerators content:",
+                "enum": [
+                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

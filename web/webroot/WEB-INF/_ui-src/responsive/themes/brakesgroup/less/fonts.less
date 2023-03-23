@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Brandon";
+  font-weight: normal;
+  font-display: swap;
+  src: local("BrandonTextRegular"), url("../fonts/BrandonText/BrandonText-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "BrandonItalic";
+  font-weight: normal;
+  font-display: swap;
+  src: local("BrandonTextRegularItalic"), url("../fonts/BrandonText/BrandonText-RegularItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "BrandonBold";
+  font-weight: normal;
+  font-display: swap;
+  src: local("BrandonTextBold"), url('../fonts/BrandonText/BrandonText-Bold.otf') format("opentype");
+}
+
+//== Fonts variables
+@font-primary: "Brandon", Helvetica, Arial, sans-serif;
+@font-primary-italic: "BrandonItalic", Helvetica, Arial, sans-serif;
+@font-primary-bold: "BrandonBold", Helvetica, Arial, sans-serif;
+
+@font-family-sans-serif: @font-primary;
+
+.font-primary {
+  font-family: @font-primary;
+  font-weight: normal;
+  font-style: normal;
+}
+.font-primary-italic {
+  font-family: @font-primary-italic;
+  font-weight: normal;
+  font-style: normal;
+}
+.font-primary-bold {
+  font-family: @font-primary-bold;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-bold {
+  .font-primary-bold;
+}

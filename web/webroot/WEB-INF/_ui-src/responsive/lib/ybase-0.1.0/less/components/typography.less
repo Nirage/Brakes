@@ -1,0 +1,53 @@
+// IMPORTANT
+// DON'T USE THIS FILE
+// USE: site-headers.less instead
+.site {
+  &__header {
+    color: @brand-gray-dark;
+    font-family: @font-family-sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    &--textleft {
+      @media (min-width: @screenSmMin) {
+        text-align: left;
+      }
+    }
+    &--rectangle {
+      height: 4px;
+      width: 71px;
+      background-color: @brand-primary;
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px;
+      &--iconleft {
+        @media (min-width: @screenSmMin) {
+          margin: initial;
+        }
+        margin-top: 15px;
+      }
+    }
+    &--borderline {
+      display: block;
+      border-bottom: 1px solid @brand-gray-medium;
+    }
+    &--secondarytext {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 10px;
+      @media (min-width: @screenSmMin) {
+        margin-top: 40px;
+      }
+    }
+  }
+  &__borderline {
+    display: block;
+    border-bottom: 1px solid @brand-gray-medium;
+  }
+}
+// IMPORTANT
+// DON'T USE THIS FILE
+// USE: site-headers.less instead

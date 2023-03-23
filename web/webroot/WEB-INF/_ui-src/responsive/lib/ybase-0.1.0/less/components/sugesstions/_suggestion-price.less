@@ -1,0 +1,35 @@
+.suggestion-price {
+  &__value {
+    &--current {
+      font-size: 16px;
+      .font-primary-bold;
+      &.is-weighted-product {
+        color: @brand-gray-dark;
+      }
+      .has-was-price & {
+        color: @brand-warning;
+      }
+    }
+    &--was-price {
+      font-size: 16px;
+      width: 100%;
+      text-decoration: line-through;
+
+      &:hover {
+        text-decoration: line-through;
+      }
+    }
+  }
+  &__price-each {
+    font-size: 12px;
+    &.is-weighted-product {
+      color: @brand-gray-dark;
+    }
+    a {
+      margin-bottom: 5px;
+      margin-top: 3px;
+      margin-left: 1px;
+      color: @brand-gray-dark;
+    }
+  }
+}

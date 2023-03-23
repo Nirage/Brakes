@@ -1,0 +1,498 @@
+//== Grid setup
+@grid-gutter-width: 20px;
+@padding-large-horizontal: 15px;
+@container-desktop: (1200px + @grid-gutter-width);
+@container-large-desktop: @container-desktop;
+@base-space: 16px;
+
+//== Colour Scheme based on Brakes Style Guide
+@brand-primary: #7c9f19; // Accents, primary CTAs, text links
+@brand-secondary: #6f8e16; // Icons hover state
+@brand-tertiary: #58585a; //Content block backgrounds, secondary icon button backgrounds
+@brand-white: #fff; // Secondary CTA, Form fields, page background, Primary CTA text
+@brand-warning: #e40134; // Promo CTA background, promo content background, promo text, error messages on form fields
+// Grays
+@brand-gray-darkest: #808080;
+@brand-gray-darker: #bdbdbd;
+@brand-gray-dark: #333; // Text, headings, body copy, border to Blue Grey
+@brand-gray: #757575; //Input field border, placholder text (lightest possible grey to use for text on a white background)
+@brand-gray-medium: #d9d9d9; // Disbaled CTAs, secondary CTA border, border to Light Grey, keylines and separators
+@brand-gray-light: #f1f1f1; // Background to text block content
+@brand-gray-lightest: #f9f9f9;
+@brand-gray-2: #9b9b9b;
+@brand-gray-3: #ccc;
+@brand-black: #000;
+@brand-black-1: rgba(0, 0, 0, 0.1);
+@brand-black-50: rgba(0, 0, 0, 0.25);
+
+@brand-light-blue: #1e78bb;
+@brand-blue: #4e57d7;
+@brand-royal-blue: #4169e1;
+@brand-orange: #f0ab1a;
+@brand-success: #5cb85c;
+@brand-danger: #d9534f;
+//== Misc colours
+@copyright-color: @brand-black;
+@checkout-list-head-border: @brand-black;
+@brand-info: @brand-black;
+@grayblue: @brand-black;
+
+@yellow: #ffe599;
+@orange: #e07820;
+@green: #7c9f19;
+@red: #b72323;
+@promo-red: @brand-warning;
+@lightest-gray: #bebebe;
+@light-yellow: #d5941c;
+@light-gray: #dedede;
+@dark-gray: #848484;
+
+@gray-light: lighten(@brand-black, 46.7%);
+@gray-dark: lighten(@brand-black, 20%);
+
+// == Borer radious
+@border-radius-base: 4px;
+@border-radius-large: 0;
+@border-radius-small: 0;
+
+@pager-border-radius: 0;
+
+@disclaimer-border-color: #979797;
+
+@font-size-base-sm: 12px;
+@font-size-base: 14px;
+@font-size-1: 16px;
+@font-size-2: @font-size-1 * 1.5;
+@font-size-3: @font-size-1 * 2;
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base: 1.428571429; // 20/14
+
+// Breakpoints
+@screen-xs: 767px;
+@screen-sm: @screen-xs + 1;
+@screen-md: 1240px;
+@screen-lg: 1440px;
+
+// Media Queries
+@mobile: ~'only screen and (max-width: 767px)';
+@tablet: ~'only screen and (min-width: @{screen-sm})';
+@desktop: ~'only screen and (min-width: @{screen-md})';
+@desktop-lg: ~'only screen and (min-width: @{screen-lg})';
+
+// Animation Delay
+@delay: 0.15s;
+
+//== Pagination
+
+//##
+@pagination-bar-framed: false;
+
+@pagination-border-width: 1px;
+@pagination-height-base: @input-height-base - (@pagination-border-width * 2);
+@pagination-height-large: @input-height-large - (@pagination-border-width * 2);
+@pagination-width-base: @pagination-height-base;
+@pagination-width-large: 40px;
+
+@pagination-border: @border-color-3;
+@pagination-font-size: @font-size-base;
+@pagination-font-weight: 400;
+
+@pagination-active-color: @btn-primary-color;
+@pagination-active-font-weight: 400;
+
+@pagination-hover-bg: transparent;
+@pagination-hover-color: @pagination-active-color;
+
+@pagination-disabled-color: @pagination-active-color;
+
+@pagination-prev-next-hover-bg: @btn-primary-bg;
+@pagination-prev-next-hover-color: @btn-primary-color;
+
+//== Form states and alerts
+//
+
+//## Define colors for form feedback states and, by default, alerts.
+
+@state-success-text: #3e5983;
+@state-success-bg: #dff0d8;
+@state-success-border: darken(spin(@state-success-bg, -10), 5%);
+
+@state-info-text: #31708f;
+@state-info-bg: #d9edf7;
+@state-info-border: darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text: #8a6d3b;
+@state-warning-bg: #fcf8e3;
+@state-warning-border: darken(spin(@state-warning-bg, -10), 5%);
+
+@state-danger-text: @text-color;
+@state-danger-bg: #f2dede;
+@state-danger-border: darken(spin(@state-danger-bg, -10), 5%);
+
+@alert-info-icon-colour: #7c9f19;
+@alert-info-bg: @brand-white;
+@alert-info-border: @brand-gray-medium;
+@alert-info-text: @text-color;
+
+@alert-warning-icon-colour: #ff9800;
+@alert-warning-bg: @brand-white;
+@alert-warning-border: @brand-gray-medium;
+@alert-warning-text: @text-color;
+
+@alert-danger-icon-colour: @brand-warning;
+@alert-danger-bg: @brand-white;
+@alert-danger-text: @text-color;
+@alert-danger-border: @brand-gray-medium;
+
+//== Forms
+//
+
+// ** Border color for inputs on focus
+// @input-border:                   #ccc;
+@input-border-focus: @brand-gray-medium;
+
+// ** Border color for inputs on error
+@input-error: @brand-danger;
+
+// ** Background color for inputs on error
+@input-error-bg: @brand-white;
+// ** color for error text
+@input-error-text: @brand-danger;
+@input-success: @border-color-3;
+@input-success-bg: transparent;
+@input-success-text: @brand-black;
+
+// ** Large `.form-control` height
+@input-padding-vertical-small: 9px;
+@input-height-small: (ceil(@font-size-base * @line-height-base) + (@input-padding-vertical-small * 2)+1);
+
+//== Panels
+//
+
+//##
+@panel-default-text: @gray-dark;
+@panel-default-border: #ddd;
+@panel-default-heading-bg: @grayblue;
+
+@container-sm: 100%;
+
+@left-offcanvas-width: 380px;
+@left-offcanvas-rightside-width: 70px;
+
+// ** Background color of the whole progress component
+@progress-bg: #f5f5f5;
+// ** Progress bar text color
+@progress-bar-color: @brand-white;
+
+// ** Default progress bar color
+@progress-bar-bg: @brand-primary;
+// ** Success progress bar color
+@progress-bar-success-bg: @brand-success;
+// ** Warning progress bar color
+@progress-bar-warning-bg: @brand-warning;
+// ** Danger progress bar color
+@progress-bar-danger-bg: @brand-danger;
+// ** Info progress bar color
+@progress-bar-info-bg: @brand-info;
+
+//Width Variables
+@full-width: 100%;
+
+// *********Typography Colors*********
+@text-color: @brand-gray-dark;
+@text-color-secondary: @brand-black;
+@link-color: @brand-black;
+@headline-color: @brand-black;
+
+//== Borders
+@border-color: @brand-gray-medium;
+@border-color-2: @brand-black;
+@border-color-3: @brand-black;
+
+// *********form colors*********
+@label-color: @brand-black;
+@input-color: @brand-black;
+@input-height-base: 32px;
+@input-height-large: 42px;
+@input-background: @brand-white;
+@input-border-color: @brand-black;
+@placeholder-color: @brand-black;
+
+// *********Header Background*********
+@header-background-color: @brand-white;
+@top-header-background-color: @brand-tertiary;
+@nav-border-color: @brand-tertiary;
+
+// *********Header Nav**************
+@header-nav-separator-color: @brand-gray-medium;
+@header-search-open-background: @brand-gray-light;
+
+// *********Secondary Navigation colors*********
+//Background color for My Account and My Company dropdowns
+@meta-nav-color: @link-color;
+@meta-nav-color-open: @link-color;
+@meta-nav-hover-color: @brand-white;
+@meta-nav-border-color: @brand-white;
+@meta-nav-background: @brand-white;
+@meta-nav-hover-background: @brand-white;
+
+// *********Search*********
+@searchbar-icon-color: @brand-black;
+@autocomplete-background: @brand-white;
+
+// ********* icon navigation colors*********
+@nav-icon-color: @brand-primary;
+@nav-icon-color-secondary: @btn-primary-bg;
+@nav-icon-hover-background: @brand-white;
+@nav-icon-dropdown-background: @brand-white;
+@navigation--middle-height: 50px;
+
+@navigation-offset-padding-desktop: 183px;
+
+// *********Header Navigation-Categories Background*********
+@nav-cat-background: @brand-white;
+@nav-cat-border: @brand-black;
+@nav-cat-hover-background: @brand-white;
+@nav-cat-link-color: @brand-black;
+@nav-cat-font-size: 12px;
+@nav-subcat-color: @brand-white;
+@nav-subcat-title-color: @brand-black;
+@nav-subcat-background: @brand-white;
+@nav-subcat-border-color: @brand-black;
+@nav-subcat-hover-background: @brand-white;
+@nav-link-highlighted-color: @brand-warning;
+
+// *********Offcanvas navigation colors*********
+@offcanvas-navigation-open-background: @brand-gray-light;
+@offcanvas-nav-header-color: @brand-black;
+@offcanvas-nav-header-background: @brand-white;
+@offcanvas-nav-disabled: @brand-white;
+@offcanvas-meta-nav-color: @brand-white;
+@offcanvas-meta-nav-border-color: @brand-black;
+@offcanvas-meta-nav-background: @brand-white;
+@offcanvas-meta-nav-background-open: @meta-nav-background;
+@offcanvas-meta-nav-hover-background: @meta-nav-hover-background;
+@offcanvas-nav-cat-color: @text-color;
+@offcanvas-nav-cat-title-color: @brand-black;
+@offcanvas-nav-cat-background: @brand-white;
+@offcanvas-nav-cat-border-color: @border-color;
+@offcanvas-nav-cat-hover-background: @brand-white;
+
+// *********Footer colors*********
+@footer-background: @brand-white;
+@footer-text-color: @brand-gray-dark;
+@footer-border-color: @brand-gray-medium;
+@copyright-background: @brand-gray-light;
+
+@footer-font-size: 12px;
+@footer-copyright-font-size: 12px;
+@footer-social-icon-font-size: 20px;
+@footer-icon-color: @brand-tertiary;
+
+// *********Well colors*********
+@well-secondary-bg: @brand-tertiary;
+@well-quaternary-bg: @brand-white;
+
+//Item colors
+@item-promo-color: @brand-black;
+@item-sale-color: @brand-black;
+@item-sale-price-color: #0000;
+
+//== Tables
+@table-2n-line-bg: @brand-white;
+@table-head-bg: @brand-black;
+@table-head-color: @brand-white;
+@table-head-border-color: @brand-black;
+@table-border-color: @brand-black;
+@table-expand-bg: @brand-black;
+@cart-product-table-head-color: @table-expand-bg;
+
+//== List
+@list-active-bg: @brand-white;
+
+//== List
+@list-active-bg: @brand-white;
+
+//Buttons size
+@padding-large-vertical: 12px;
+
+// *********Button Colors*********
+//## For each of Bootstrap's buttons, define text, background and border color.
+@btn-box-shadow: false;
+@btn-border-width: 3px;
+@btn-font-size: 18px;
+@font-size-small: ceil((@font-size-base * 0.92)); // ~13px
+@font-size-large-1: ceil((@font-size-base * 1.14)); // ~16px
+@font-size-large-2: ceil((@font-size-base * 1.2857)); // ~18px
+@font-size-large-3: ceil((@font-size-base * 1.57)); // ~22px
+@font-size-large-4: ceil((@font-size-base * 1.71)); // ~24px
+@btn-line-height: 1.375;
+@btn-font-weight: normal;
+@btn-icon-font-size: 24px;
+@base-icon-touch-area: 50px;
+
+@btn-disabled-color: #58585a;
+
+//Primary Button State
+@btn-primary-color: @brand-white;
+@btn-primary-bg: @brand-primary;
+@btn-primary-border: #708d23; //10% darker brand-primary colour
+@btn-primary-hover-color: @brand-white;
+@btn-primary-hover-border: #496c00; //20% darker brand-primary colour
+@btn-primary-hover-background: #708d23;
+@btn-primary-disabled-bg: @brand-gray-medium;
+
+//Secondary Button State
+@btn-secondary-color: @text-color;
+@btn-secondary-bg: @brand-white;
+@btn-secondary-border: @border-color;
+@btn-secondary-hover-color: @text-color;
+@btn-secondary-hover-border: @border-color;
+@btn-secondary-hover-background: @brand-gray-light;
+@btn-secondary-disabled-bg: @brand-gray-medium;
+
+//Nav-Back Button State
+@btn-nav-back-color: @text-color;
+@btn-nav-back-bg: @brand-gray-light;
+@btn-nav-back-border: @brand-gray-light;
+@btn-nav-back-hover-color: @text-color;
+@btn-nav-back-hover-border: @brand-gray-light;
+@btn-nav-back-hover-background: @brand-gray-light;
+@btn-nav-back-disabled-bg: @brand-gray-medium;
+
+//Default Button State
+@btn-default-color: @brand-white;
+@btn-default-bg: @brand-black;
+@btn-default-border: @brand-black;
+@btn-default-hover-color: @brand-black;
+@btn-default-hover-border: @brand-black;
+@btn-default-hover-background: @brand-white;
+@btn-default-disabled-bg: @brand-gray-medium;
+
+@btn-success-color: @brand-white;
+@btn-success-bg: @brand-success;
+@btn-success-border: transparent;
+
+@btn-info-color: @brand-white;
+@btn-info-bg: @brand-info;
+@btn-info-border: transparent;
+
+@btn-warning-color: @brand-white;
+@btn-warning-bg: @brand-warning;
+@btn-warning-border: transparent;
+
+@btn-danger-color: @brand-white;
+@btn-danger-bg: @brand-danger;
+@btn-danger-border: transparent;
+
+@btn-link-disabled-color: @gray-light;
+
+//Back button state
+@btn-back-bg: @brand-gray-light;
+@btn-back-hover-bg: #d8d8d8;
+
+//Mini Cart
+@minicart-count-border-color: @brand-gray-medium;
+@minicart-count-background-color: @brand-white;
+@minicart-count-color: @text-color;
+
+// *********Breadcrumbs Colors*********
+@breadcrumb-padding-vertical: @grid-gutter-width / 2;
+@breadcrumb-padding-horizontal: 0;
+// ** Breadcrumb background color
+@breadcrumb-bg: @brand-white;
+// ** Breadcrumb text color
+@breadcrumb-color: @text-color;
+// ** Text color of current page in the breadcrumb
+@breadcrumb-active-color: @text-color;
+// ** Textual separator for between breadcrumb elements
+@breadcrumb-separator: '>';
+
+// *********Accordion Colors*********
+@accordion-bg: @brand-black;
+
+// *********Carousel Style*********
+@carousel-font-style: uppercase;
+
+// *********Modal Colors*********
+@modal-close-btn-color: @brand-black;
+
+// ********* THEME VARIABLES *********
+
+// ** ADDONS
+
+// ** captchaaddon
+@captcha-icons: #353c45;
+
+// *********Account Colors*********
+@account-subheadline-bg: @header-background-color;
+@account-well-primary: @brand-white;
+@account-well-secondary: @brand-white;
+
+// *********checkout*********
+@steps-color: @brand-black;
+@steps-background: @brand-white;
+@steps-color-active: @brand-black;
+@steps-background-active: @brand-white;
+@steps-border-active: @brand-black;
+@steps-divider: @border-color-3;
+@checkout-icon: @brand-black;
+@checkout-list-head-bg: @table-head-bg;
+@checkout-list-head-color: @brand-white;
+@checkout-list-head-padding: 15px 20px;
+@checkout-list-head-padding-first: 15px;
+
+// *********Coupon Colors*********
+@coupon-list-item-border: @border-color-3;
+@coupon-list-item-bg: @table-2n-line-bg;
+@coupon-list-item-remove-icon: @brand-white;
+
+// *********Datepicker Colors*********
+
+@datepicker-highlight-bg: @brand-tertiary;
+@datepicker-highlight-color: @brand-white;
+@datepicker-highlight-border: @brand-tertiary;
+
+@datepicker-active-bg: @brand-primary;
+@datepicker-active-color: @brand-white;
+@datepicker-active-border: @brand-primary;
+
+// *********Entry Group Colors*********
+
+@entry-group-text: @brand-black;
+@entry-group-header: #e4e4e4;
+@entry-group-item: #f4f4f4;
+
+//Box Shadows
+@box-shadow-light: 0 1px 4px 1px rgba(0, 0, 0, 0.1); //basic content cards and dropdown menus
+@box-shadow-dark: 0 2px 4px 0 rgba(0, 0, 0, 0.4); //page modal, mega menu
+@box-shadow-dark-all-sides: 0px 2px 4px 1px rgba(0, 0, 0, 0.4);
+@box-shadow-light-all-sides: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+
+//Tooltips
+@tooltip-color: @text-color;
+@tooltip-bg: @brand-white;
+@tooltip-max-width: 400px;
+@tooltip-arrow-width: 15px;
+
+//Popovers
+@popover-max-width: 400px;
+
+// Icons
+@veggie-icon-color: #6f8e16; // this will be same for ll site hence not using @brand-secondary variable
+@valid-icon-color: #6f8e16; // this will be same for ll site hence not using @brand-secondary variable
+
+@brand-common-blue-gray: #58585a;
+@brand-common-green: #7c9f19;
+@brand-common-dark-green: #6f8e16;
+@brand-common-purple: #820085;
+@brand-common-blue: #09326c;
+@brand-common-dark-purple: #49155c;
+// *********Order Delivery Status Colors*********
+@status-valid-color: @valid-icon-color;
+@status-invalid-color: #d9d9d9;
+
+@promo-item-background: @brand-gray-lightest;
+
+@white: #ffffff;

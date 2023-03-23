@@ -1,0 +1,47 @@
+@__space-base: 10px;
+.generate-spacing(10);
+
+.generate-spacing(@n, @i: 0) when (@i =< @n) {
+  .h-sm-space-@{i} {
+    @media (max-width: @screen-sm-max) {
+      margin-bottom: @__space-base* @i;
+    }
+  }
+  .h-space-@{i} {
+    margin-bottom: @__space-base* @i;
+  }
+  .h-topspace-@{i} {
+    margin-top: @__space-base* @i;
+  }
+  .h-padding-top-@{i} {
+    padding-top: @__space-base * @i;
+  }
+  .h-padding-bottom-@{i} {
+    padding-bottom: @__space-base * @i;
+  }
+  .h-ml-@{i} {
+    margin-left: @__space-base * @i;
+  }
+  .h-mr-@{i} {
+    margin-right: @__space-base * @i;
+  }
+  .h-pl-@{i} {
+    padding-left: @__space-base * @i;
+  }
+  .h-pr-@{i} {
+    padding-right: @__space-base * @i;
+  }
+  .generate-spacing(@n, (@i + 1));
+}
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+
+.h-width-100 {
+  width: 100%;
+}

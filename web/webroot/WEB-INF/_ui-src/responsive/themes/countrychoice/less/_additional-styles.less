@@ -1,0 +1,40 @@
+@search-price-color: #5b15a6;
+@ajax-price-color: #006e26;
+
+.product__search--price {
+  color: @search-price-color;
+  font-weight: bold;
+}
+
+.product__ajax--price {
+  color: @ajax-price-color;
+  font-weight: bold;
+}
+.header--stripped-down .site-logo {
+  width: 200px;
+
+  @media (min-width: @screen-sm-min) {
+    width: 240px;
+  }
+}
+.site-logo {
+  @media (min-width: @screen-md-min) {
+    margin-top: 3px;
+  }
+  // iPad Pro and Newer specific fix
+  @media only screen and (min-device-width: 769px) and (-webkit-min-device-pixel-ratio: 2) {
+    margin-top: 6px;
+  }
+}
+.mobile-nav__logo img {
+  width: 100%;
+  max-width: 140px;
+}
+.site-search__submit {
+  background-color: @brand-white;
+}
+.mini-basket__total {
+  background-color: @brand-white;
+  color: @brand-black;
+  border: 1px solid @brand-gray-medium;
+}

@@ -1,0 +1,38 @@
+.order-status {
+  height: 18px;
+  &::before {
+    .icon;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+  }
+
+  &--confirmed,
+  &--status-picked {
+    color: @brand-primary;
+    &::before {
+      content: "\e93a";
+    }
+  }
+
+  &--cancelled {
+    color: @brand-warning;
+    &::before {
+      content: "\e90d";
+    }
+  }
+
+  &--confirmed_and_modified {
+    color: @brand-warning;
+    &::before {
+      content: "\e900";
+    }
+  }
+
+  &--queued,
+  &--waiting_for_confrmation {
+    &::before {
+      content: "\e921";
+    }
+  }
+}

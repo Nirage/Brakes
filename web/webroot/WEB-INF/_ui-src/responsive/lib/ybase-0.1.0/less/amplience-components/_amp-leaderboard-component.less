@@ -1,0 +1,97 @@
+.amp-leaderboard {
+  margin-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+  text-align: center;
+
+  &.has-image {
+    text-align: inherit;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+  &__img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 110px;
+    object-fit: cover;
+  }
+  &__btn {
+    .btn;
+    &:hover,
+    &:active {
+      color: inherit;
+    }
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    &.btn-download {
+      border: 1px solid @brand-gray-medium;
+    }
+    .has-image & {
+      @media (max-width: @screen-xs-max) {
+        display: inline-block;
+        position: absolute;
+        width: calc(~'100% - 46px');
+        left: 20px;
+        bottom: 25%;
+      }
+      @media (min-width: @screen-sm-min) {
+        width: auto;
+        position: absolute;
+        margin-left: 20px;
+        margin-right: 20px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  &__btn-align {
+    &--center {
+      .no-image & {
+        @media (min-width: @screen-sm-min) {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+    &--left {
+      .no-image & {
+        @media (min-width: @screen-sm-min) {
+          margin-left: 0;
+        }
+      }
+      .has-image & {
+        @media (min-width: @screen-sm-min) {
+          left: auto;
+          left: 0;
+          -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+        }
+      }
+    }
+    &--right {
+      .no-image & {
+        @media (min-width: @screen-sm-min) {
+          margin-right: 0;
+          margin-left: auto;
+        }
+      }
+      .has-image & {
+        @media (min-width: @screen-sm-min) {
+          left: auto;
+          right: 0;
+          -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+        }
+      }
+    }
+  }
+
+  .lazyload {
+    height: 110px;
+  }
+}

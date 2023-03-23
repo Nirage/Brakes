@@ -1,0 +1,94 @@
+@__calendar-custom-width: 270px;
+@__calendar-custom-day-width: 10.2857143%;
+@__calendar-custom-day-height: 28px;
+
+.flatpickr-calendar,
+.flatpickr-rContainer,
+.flatpickr-days {
+  width: @__calendar-custom-width;
+}
+
+.dayContainer {
+  width: @__calendar-custom-width;
+  min-width: @__calendar-custom-width;
+  max-width: @__calendar-custom-width;
+}
+.flatpickr-day {
+  color: @brand-gray-dark;
+  margin: 1% 2%;
+  width: @__calendar-custom-day-width;
+  -ms-flex-preferred-size: @__calendar-custom-day-width;
+  flex-basis: @__calendar-custom-day-width;
+  line-height: @__calendar-custom-day-height;
+  height: @__calendar-custom-day-height;
+  @media all and (-ms-high-contrast: none) {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: block;
+  }
+
+  &.disabled {
+    background-color: @brand-gray-light;
+    color: rgba(57, 57, 57, 0.3);
+  }
+  &.prevMonthDay,
+  &.nextMonthDay {
+    color: @brand-gray-dark;
+    &.disabled {
+      background-color: @brand-white;
+    }
+  }
+  &.date-bankholiday {
+    border-color: @brand-gray-medium;
+    background: @brand-white;
+    background: repeating-linear-gradient(30deg, @brand-white, @brand-white 5px, @brand-gray-medium 6px, @brand-gray-medium 5px);
+    z-index: 1;
+    color: @brand-gray-dark;
+    &:after {
+      position: absolute;
+      content: "";
+      background-color: @brand-white;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      z-index: -1;
+      top: 5px;
+      left: 4px;
+    }
+  }
+
+  &.date-selected,
+  &.selected,
+  &.selected:hover {
+    background-color: @brand-primary !important;
+    background: @brand-primary !important;
+    font-weight: bold;
+    color: @brand-white;
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.flatpickr-month {
+  background-color: @brand-gray-light!important;
+  height: 36px !important;
+}
+.flatpickr-weekdays {
+  border-bottom: 1px solid @brand-gray-light;
+}
+
+.flatpickr-months {
+  input.cur-year {
+    appearance: none;
+  }
+  .arrowUp,
+  .arrowDown {
+    display: none;
+  }
+}

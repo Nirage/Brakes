@@ -1,0 +1,33 @@
+.guidelines-header {
+  background-color: @brand-gray-light;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 32px;
+  margin-bottom: 10px;
+  float: left;
+  &__icon {
+    float: left;
+  }
+  &__icon-desc {
+    font-size: 18px;
+    .font-primary-bold;
+    margin-left: 5px;
+  }
+  &__text {
+    font-size: 16px;
+    text-transform: uppercase;
+    float: left;
+    border-top: 1px solid @brand-gray-medium;
+    margin-top: 5px;
+    padding-top: 5px;
+    @media (min-width: @screen-sm-min) {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+      float: right;
+    }
+  }
+}
+.guidelines-content {
+  margin-bottom: 20px;
+}

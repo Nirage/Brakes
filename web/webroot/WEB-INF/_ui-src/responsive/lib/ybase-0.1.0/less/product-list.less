@@ -1,0 +1,271 @@
+.product__listing {
+  .flex;
+  .flex-wrap;
+  clear: both;
+  margin-bottom: 20px;
+
+  @media @tablet {
+    margin-bottom: 40px;
+  }
+
+  // Hacky solution for js to target clear value.
+  // Look at acc.plp.js method setElementPositions() condition $(this).css('clear') == 'both'
+  // Tech debt - needs to be revisted.
+  div {
+    @media @mobile {
+      &:nth-of-type(odd) {
+        clear: both;
+      }
+    }
+
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      &:nth-of-type(4n + 1) {
+        clear: both;
+      }
+    }
+
+    @media @desktop {
+      &:nth-of-type(6n + 1) {
+        clear: both;
+      }
+    }
+  }
+
+  &-load-more-btn {
+    margin: 0 auto;
+    display: block;
+    min-width: 280px;
+  }
+
+  .product-item,
+  .product-item--noborder {
+    .flex;
+    .flex-direction-column;
+
+    @media @mobile {
+      width: calc(50% - 8px);
+      margin-right: 10px;
+
+      &:nth-of-type(2n) {
+        margin-right: 0;
+      }
+    }
+
+    @media @tablet and (max-width: @screen-sm-max) {
+      width: calc(25% - 10px);
+      margin-right: 13px;
+
+      &:nth-of-type(4n) {
+        margin-right: 0;
+      }
+    }
+
+    @media @desktop {
+      width: calc(16.66% - 12.5px);
+      margin-right: 15px;
+
+      &:nth-of-type(6n) {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-child(even) {
+      .product-item--border {
+        .addtocart {
+          .discontinued__info {
+            right: -2px;
+            left: initial;
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-item {
+  &--discontinued {
+    background: rgba(0, 0, 0, 0.05);
+    .product-item__thumb {
+      .product-item__image {
+        opacity: 0.5;
+      }
+    }
+  }
+  &--discontinuedFavicon {
+    visibility: hidden;
+  }
+  &--discontinuedIcon {
+    font-size: 14px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+  &--discontinuedIconLeft {
+    font-size: 14px;
+    position: absolute;
+    right: 2px;
+    top: -6px;
+  }
+}
+.product__list--wrapper {
+  padding-bottom: 20px;
+  @media (min-width: @screen-md-min) {
+    padding-bottom: 50px;
+  }
+}
+
+/////////////////////////////////
+//     Discontinued product    //
+/////////////////////////////////
+.discontinued {
+  &__section {
+    padding-left: 10px;
+    width: 65%;
+    margin-left: 20%;
+
+    @media @tablet {
+      margin-left: 0;
+      width: 34%;
+    }
+  }
+  &__title {
+    font-size: 16px;
+    .font-primary-bold;
+    &:after {
+      content: '';
+      width: 71px;
+      height: 5px;
+      display: block;
+      margin-top: 10px;
+      background: @brand-primary;
+      margin-bottom: 20px;
+    }
+  }
+  &__content {
+    font-size: 14px;
+    .font-primary;
+  }
+  &__info {
+    position: absolute;
+    background-color: @brand-white;
+    border: 1px solid @brand-gray-medium;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    top: 15%;
+    padding: 12px;
+    left: -1px;
+    width: 140%;
+    z-index: 19;
+
+    @media (min-width: @screen-md-min) {
+      top: 28%;
+      width: 100%;
+    }
+  }
+  &__info__half {
+    position: absolute;
+    background-color: @brand-white;
+    border: 1px solid @brand-gray-medium;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    padding: 12px;
+    left: 11%;
+    width: 80%;
+    z-index: 19;
+
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      width: 50%;
+      left: 40%;
+    }
+    @media (min-width: @screen-md-min) {
+      width: 52%;
+      left: -15%;
+    }
+  }
+
+  &__infoSection {
+    padding: 2px;
+  }
+  &__noPadding {
+    padding: 0;
+  }
+  &__infoTitle {
+    color: @brand-gray-dark;
+    .font-primary-bold;
+    font-size: 18px;
+    text-align: center;
+    &:after {
+      content: '';
+      width: 71px;
+      height: 5px;
+      display: block;
+      margin-top: 10px;
+      background: @brand-primary;
+      margin-bottom: 20px;
+      margin-left: 25%;
+    }
+  }
+  &__sectionTitle {
+    color: @brand-gray-dark;
+    .font-primary-bold;
+    font-size: 18px;
+    text-align: center;
+    &:after {
+      content: '';
+      width: 71px;
+      height: 5px;
+      display: block;
+      margin-top: 10px;
+      background: @brand-primary;
+      margin-bottom: 20px;
+      margin-left: 35%;
+    }
+  }
+
+  &__infoContent {
+    color: @brand-gray-dark;
+    .font-primary;
+    font-size: 14px;
+    text-align: center;
+  }
+  &__btn {
+    font-size: 13px;
+    @media (min-width: @screen-md-min) {
+      font-size: 18px;
+    }
+  }
+  &__btnDisabled {
+    color: @brand-tertiary;
+    background-color: @brand-gray-medium;
+    border-color: @brand-gray-medium;
+    opacity: 0.65;
+    &:hover,
+    &:active,
+    &:focus {
+      color: @brand-tertiary;
+      background-color: @brand-gray-medium;
+      border-color: @brand-gray-medium;
+      opacity: 0.65;
+    }
+  }
+  &__sectionTitleLarge {
+    color: @brand-gray-dark;
+    .font-primary-bold;
+    font-size: 24px;
+    text-align: center;
+    &:after {
+      content: '';
+      width: 71px;
+      height: 5px;
+      display: block;
+      margin-top: 10px;
+      background: @brand-primary;
+      margin-bottom: 20px;
+      margin-left: 35%;
+    }
+  }
+}
+.outOfStock {
+  &__section {
+    position: relative;
+  }
+}

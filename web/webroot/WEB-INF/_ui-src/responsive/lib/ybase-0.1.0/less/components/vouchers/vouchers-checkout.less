@@ -1,0 +1,135 @@
+/////////////////////////////////
+//        checkout Voucher      //
+/////////////////////////////////
+.checkout-voucher {
+  &__box {
+    height: 50px;
+    border: 1px solid @brand-gray-medium;
+    color: @brand-gray-darkest;
+  }
+  &__input {
+    font-size: 14px;
+    .font-primary-italic;
+    width: 100%;
+    border-right: 0;
+    border-radius: @btn-border-radius-base 0 0 @btn-border-radius-base;
+    &:focus,
+    &:active {
+      border-radius: @btn-border-radius-base 0 0 @btn-border-radius-base;
+    }
+  }
+  &__btn {
+    .font-primary-bold;
+    font-size: 18px;
+    background-color: @brand-white;
+    color: @brand-gray-dark;
+    border-radius: 0 4px 4px 0;
+  }
+  &__text {
+    color: @brand-gray-dark;
+    font-size: 14px;
+    padding-top: 12px;
+    clear: both;
+    margin-bottom: 20px;
+    @media (min-width: @screen-xs-min) {
+      margin-bottom: 0px;
+    }
+  }
+  &__img {
+    width: 14px;
+    margin-right: 4px;
+    margin-top: -4px;
+    @media (min-width: @screen-xs-min) {
+      width: 24px;
+    }
+  }
+  &__error {
+    color: @brand-warning;
+    display: inline-block;
+    margin-top: 5px;
+    width: 100%;
+  }
+  &__haserror {
+    border: 1px solid @brand-warning;
+    color: @brand-warning;
+  }
+  &__info {
+    position: absolute;
+    background-color: @brand-white;
+    border: 1px solid @brand-gray-medium;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    left: 15%;
+    top: 30%;
+    padding: 12px;
+    z-index: 2;
+    @media (max-width: @screen-xs-max) {
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__infoSection {
+    padding: 12px;
+    width: 200px;
+  }
+  &__infoTitle {
+    color: #333;
+    .font-primary-bold;
+    font-size: 12px;
+    text-align: center;
+    @media (min-width: @screen-md-min) {
+      font-size: 18px;
+    }
+    &:after {
+      content: "";
+      width: 40%;
+      margin-left: 30%;
+      height: 5px;
+      display: block;
+      margin-top: 10px;
+      background: @brand-primary;
+    }
+  }
+  &__infoContent {
+    color: @text-color;
+    .font-primary;
+    font-size: 11px;
+    text-align: center;
+    @media (min-width: @screen-md-min) {
+      font-size: 14px;
+    }
+  }
+  &__sucessText {
+    color: @brand-secondary;
+  }
+  &__input-wrap {
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+  &__tc {
+    display: none;
+    .is-expanded & {
+      display: block;
+      word-wrap: break-word;
+      overflow: auto;
+      max-height: 100%;
+    }
+  }
+  &__btn {
+    &--show-more {
+      .is-expanded & {
+        display: none;
+      }
+    }
+  }
+  &__tc-wrap {
+    display: none;
+    .has-tc & {
+      display: block;
+    }
+    .checkout-voucher__btn {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.checkout-progress,
+.registration-progress {
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  &__heading {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+  }
+  &__progress-bar {
+    width: 100%;
+    background-color: @brand-gray-medium;
+    position: relative;
+    height: 8px;
+    box-shadow: none;
+  }
+  .progress-bar {
+    &__active {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: @brand-primary;
+      box-shadow: none;
+      height: 8px;
+    }
+  }
+}

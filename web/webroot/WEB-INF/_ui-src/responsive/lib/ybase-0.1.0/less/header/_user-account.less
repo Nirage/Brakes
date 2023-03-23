@@ -1,0 +1,116 @@
+.user-login {
+  color: @brand-white;
+  &__link {
+    padding-right: 20px !important;
+  }
+}
+
+.login-wrapper {
+  position: relative;
+}
+
+.nav-popup {
+  position: absolute;
+  background: @brand-white;
+  padding: 24px;
+  box-shadow: 0 4px 16px 1px @brand-black-50;
+  left: 10px;
+  top: 60px;
+  width: calc(100% - 20px);
+  z-index: 9999;
+  text-align: left;
+
+  @media @mobile {
+    &:not(.hide) {
+      & + .nav-popup--bg {
+        &:before {
+          content: '';
+          background: @brand-black-50;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          position: fixed;
+          z-index: 10;
+        }
+      }
+    }
+  }
+
+  @media @tablet {
+    width: 290px;
+    left: -128px;
+    top: 40px;
+
+    &:before {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid @brand-white;
+      position: absolute;
+      top: -10px;
+      left: 135px;
+    }
+  }
+
+  &__main-heading {
+    border: none;
+    font-size: 22px;
+    font-family: @font-primary;
+    line-height: 1;
+    margin-bottom: 0;
+    &:after {
+      display: none;
+    }
+  }
+  &__sub-heading {
+    font-size: 18px;
+    font-family: @font-primary-bold;
+  }
+  &--delivery {
+    @media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      left: auto;
+      right: 10px;
+    }
+
+    &::before {
+      @media screen and (max-width: @screen-xs-max) {
+        right: 5px;
+        left: auto;
+      }
+      @media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+        right: 15px;
+        left: auto;
+      }
+      left: 143px;
+    }
+  }
+
+  hr {
+    margin: 10px 0 15px;
+    clear: both;
+  }
+  .site__form--forgotlink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333333;
+  }
+  .password-label {
+    visibility: hidden;
+  }
+  .btn-primary {
+    color: @brand-white;
+  }
+  .account-dropdown__businessname {
+    padding: 3px 0;
+  }
+  .site__form--input {
+    &::placeholder {
+      font-style: italic;
+    }
+  }
+}

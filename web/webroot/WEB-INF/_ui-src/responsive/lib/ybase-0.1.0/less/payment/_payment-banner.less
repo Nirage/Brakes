@@ -1,0 +1,57 @@
+.payment-banner{
+    margin-bottom: 15px;
+    margin-top: -14px;//to overwerite the benifits bar margin bottom
+    background-color: @yellow;
+    &__section {
+        display: flex;
+    }
+   
+
+    &__item {
+       padding-right: 12px;
+       @media (min-width: @screen-sm-min) {
+        padding-right: 24px;
+       }
+    }
+    &__content {
+        text-align: center;      
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: @brand-gray;
+        .font-primary;  
+        @media (min-width: @screen-sm-min) {
+            font-size: 14px;
+        }
+        &--left {
+            width: 70%;
+            @media (min-width: @screen-md-min) {
+                width: 50%;
+            }
+        }
+        &--right {
+            width: 30%;
+            @media (min-width: @screen-md-min) {
+                width: 50%;
+            }  
+        }
+      }
+      .btn {
+        max-width: 85px;
+        height: 40px;
+        padding: 6px 6px;
+        font-size: 16px;
+        @media (min-width: @screen-md-min) {
+            max-width: 120px;
+            padding: 6px 12px;
+            font-size: 18px;
+
+
+        } 
+    }
+}
+.cursorPointer {
+    cursor: pointer;
+  }

@@ -1,0 +1,10 @@
+<div
+    id="{{sliderId}}"
+    class="owl-carousel owl-theme amp-slider"
+    data-autoplay="{{autoplay}}"
+    data-slideRate="{{slideRate}}"
+>
+    {{#each chooser}}
+        {{> DEV_slider-item_template }}
+    {{/each}}
+</div>

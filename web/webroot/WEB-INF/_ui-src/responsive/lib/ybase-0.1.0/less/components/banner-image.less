@@ -1,0 +1,25 @@
+.site-banner {
+  position: relative;
+  &__image {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SsLYSh45lizrfzvep/videoblocks-business-man-hands-typing-on-pc-keyboard-on-wooden-table-background-top-view-office-desk_sziithar0g_thumbnail-full01.png");
+    background-size: cover;
+    height: 340px;
+  }
+  &__textbox {
+    top: 0;
+    left: 15%;
+    padding: 20px 15px;
+    z-index: 1;
+    background-color: @brand-white;
+    opacity: 0.9;
+    height: 100%;
+    text-align: center;
+    @media (min-width: @screenSmMin) {
+      position: absolute;
+      text-align: left;
+    }
+    @media (min-width: @screenSmMin) {
+      width: 300px;
+    }
+  }
+}

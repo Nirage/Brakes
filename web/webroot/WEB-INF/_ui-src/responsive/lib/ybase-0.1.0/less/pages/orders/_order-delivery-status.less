@@ -1,0 +1,123 @@
+.order-delivery-status {
+  .site__header {
+    margin-bottom: 20px;
+  }
+  .bullet {
+    width: 12px;
+    height: 12px;
+    background-color: @status-valid-color;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  &__phonehint {
+    margin-bottom: 20px;
+  }
+  &__card {
+    border: 1px solid @border-color;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 1px 4px 1px @border-color;
+    box-shadow: 0 1px 4px 1px @border-color;
+    &__info {
+      position: relative;
+      td {
+        border: none !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+    }
+    &__info__table {
+      border: 1px solid @border-color;
+      td,
+      th {
+        border-bottom: 1px solid @border-color!important;
+      }
+    }
+    &__info__header {
+      background-color: @brand-gray-light;
+      th {
+        .font-primary !important;
+        padding: 12px 22px !important;
+        border: none;
+      }
+    }
+    &__info__label {
+      font-weight: 500;
+    }
+    &__info__detail {
+      font-weight: 600;
+    }
+    &__refresh {
+      padding-top: 15px !important;
+      padding-bottom: 10px !important;
+    }
+  }
+  &__card__progress {
+    width: 90%;
+    margin: 0 auto 0 6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    img {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      min-width: 40px;
+      min-height: 40px;
+      margin: 0 5px;
+    }
+    &__bar {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      height: 5px;
+      border-radius: 2px;
+      background-color: @status-invalid-color;
+      margin: auto;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      &.active {
+        background-color: @status-valid-color;
+      }
+    }
+  }
+  &__card__progress__label {
+    width: 95%;
+    margin: 5px auto 30px auto;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    div {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      width: 25%;
+      &.picked {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-left: 2%;
+      }
+      &.outfor {
+        padding-left: 4%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+      &.delivered {
+        padding-right: 1%;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+      }
+    }
+  }
+}

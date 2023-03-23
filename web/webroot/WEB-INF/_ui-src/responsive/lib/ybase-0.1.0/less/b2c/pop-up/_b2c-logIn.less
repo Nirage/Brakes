@@ -1,0 +1,59 @@
+.b2c-login {
+  &__title {
+    font-size: 25px;
+    line-height: 27px;
+    .font-primary-bold;
+    @media screen and (min-width: @screen-sm-min) {
+      font-size: 21px;
+      line-height: 23px;
+    }
+  }
+  &__form {
+    &--inner {
+      position: relative;
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 4px 4px 0 0;
+      border: 1px solid @brand-gray-medium;
+      -webkit-box-shadow: 0px 0 11px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0 11px 0px rgba(0, 0, 0, 0.1);
+      background: @brand-gray-light;
+    }
+  }
+  &__unit {
+    &--selected {
+      text-transform: uppercase;
+      .font-primary-bold;
+    }
+  }
+  &__cta {
+    float: left;
+    width: ~"calc(50% - 20px)";
+    margin: 0px 10px;
+    text-align: center;
+    &--forgotten-password {
+      float: right;
+      width: auto;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    &--back {
+      height: 50px;
+      border: 1px solid @brand-gray-medium;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+      background-color: @white;
+      color: @brand-tertiary;
+      &:hover {
+        background: @brand-gray-medium;
+        color: @brand-tertiary;
+      }
+    }
+    &--back-icon {
+      font-size: 17px;
+      padding-right: 0px;
+    }
+  }
+}

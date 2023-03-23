@@ -1,0 +1,38 @@
+.tooltip {
+  border-bottom: 0;
+}
+
+.tooltip-inner {
+  border: 1px solid @border-color;
+  border-radius: 2px;
+  -webkit-box-shadow: @box-shadow-light;
+  box-shadow: @box-shadow-light;
+  padding: 12px;
+  font-size: 13px;
+}
+
+.tooltip .tooltip-arrow {
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: @brand-white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); /* Prefixes... */
+    top: -8px;
+    left: 8px;
+    -webkit-box-shadow: @box-shadow-light;
+    box-shadow: @box-shadow-light;
+  }
+}
+
+.tooltip.top .tooltip-arrow {
+  border-width: 0;
+  bottom: -14px;
+  pointer-events: none;
+}

@@ -1,0 +1,28 @@
+<div class="owl-carousel owl-theme amp-slider js-caCarousel{{sliderId}}">
+    {{#each chooser}}
+        {{> slider-item_template }}
+    {{/each}}
+</div>
+
+
+<script>
+    
+    $('.js-caCarousel{{sliderId}}').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<span class='icon icon-chevron-left carousel-nav carousel-nav--left'></span>", "<span class='icon icon-chevron-right carousel-nav carousel-nav--right'></span>"],
+    {{#if autoplay}}
+        {{#if slideRate}}
+            autoplay: true,
+            autoplayTimeout: {{slideRate}}*1000,
+        {{/if}}
+    {{/if}}
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+    
+</script>

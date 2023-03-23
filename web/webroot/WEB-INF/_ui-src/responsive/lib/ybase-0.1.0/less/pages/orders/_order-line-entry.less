@@ -1,0 +1,53 @@
+.order-line-entry {
+  .order-status {
+    .font-primary-bold;
+    font-size: 16px;
+    line-height: 1.1;
+    height: auto;
+    &::before {
+      display: none;
+    }
+
+    &--substituted,
+    &--substitution-init,
+    &--out_of_stock {
+      color: @brand-warning;
+    }
+
+    &--substitution-init {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &__qty {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0 10px;
+  }
+
+  &__amend-status {
+    margin-top: 12px;
+  }
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+
+  &__load-more {
+    border-top: 1px solid @border-color;
+  }
+
+  &__actions {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: -7px;
+  }
+
+  &__qty-form {
+    max-width: 120px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+}

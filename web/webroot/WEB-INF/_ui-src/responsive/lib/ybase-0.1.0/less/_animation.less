@@ -1,0 +1,126 @@
+// Slide Direction
+
+.animation {
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  will-change: transform;
+  transition: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  animation-name: slideInRight;
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.slide-out-right {
+  animation-name: slideOutRight;
+}
+
+// Mark Icon animation
+
+.mark-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  stroke-width: 2;
+  stroke: @white;
+  stroke-miterlimit: 10;
+
+  &__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+
+  &__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+
+  .cross__path {
+    stroke: @white;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    transform-origin: 50% 50% 0;
+
+    &--right {
+      animation: 0.3s ease 0.8s normal forwards 1 running stroke;
+    }
+
+    &--left {
+      animation: 1s ease 0.8s normal forwards 1 running stroke;
+    }
+  }
+
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+
+.check-mark {
+  box-shadow: inset 0 0 0 @brand-primary;
+  animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+
+  .mark-icon__circle {
+    stroke: @brand-primary;
+  }
+
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0 0 0 30px @brand-primary;
+    }
+  }
+}
+
+.cross-mark {
+  box-shadow: inset 0 0 0 @brand-warning;
+  animation: fillred 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+
+  .mark-icon__circle {
+    stroke: @brand-warning;
+  }
+
+  @keyframes fillred {
+    100% {
+      box-shadow: inset 0 0 0 30px @brand-warning;
+    }
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}

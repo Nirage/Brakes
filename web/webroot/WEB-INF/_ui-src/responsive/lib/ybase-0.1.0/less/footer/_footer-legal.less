@@ -1,0 +1,20 @@
+.footer-legal {
+  &__link {
+    color: @text-color;
+    text-decoration: underline;
+    &::after {
+      content: "|";
+      display: inline-block;
+      position: relative;
+      right: -5px;
+    }
+  }
+
+  &__item {
+    &:last-of-type .footer-legal__link {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}

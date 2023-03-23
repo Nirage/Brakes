@@ -1,0 +1,193 @@
+.nth-footer-accordion (@i;) when (@i > 0) {
+  &:nth-of-type(@{i}):checked {
+    @media @mobile {
+      & ~ .footer__section-wrapper .footer__section:nth-child(@{i}) {
+        max-height: 380px;
+
+        .icon-chevron:before {
+          content: @icon-chevron-up;
+        }
+
+        .footer__heading:before {
+          .bg-primary;
+        }
+      }
+    }
+  }
+
+  .nth-footer-accordion(@i - 1);
+}
+
+footer {
+  .container-fluid {
+    border-top: 1px solid @brand-gray-medium;
+    box-shadow: 0px -6px 8px -6px @brand-gray-medium;
+    display: block;
+    input[name='footer-accordion'] {
+      .hide;
+      .nth-footer-accordion(4);
+    }
+  }
+}
+
+.footer {
+  background: @brand-white;
+  color: @brand-gray-dark;
+  .font-primary;
+
+  &__section-wrapper {
+    .flex;
+    .flex-direction-column;
+    .flex-wrap;
+    @media @tablet {
+      .flex-direction-row;
+      width: 100%;
+      max-width: @screen-lg;
+      margin: 0 auto;
+      padding: 40px 15px 38px 15px;
+    }
+  }
+
+  &__section {
+    font-size: @font-size-1;
+    background-color: @white;
+    @media @mobile {
+      padding: 10px 15px;
+      margin-bottom: 5px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+      max-height: 65px;
+      transition: max-height 0.35s ease;
+      overflow: hidden;
+    }
+    @media @tablet {
+      width: 25%;
+    }
+    &:not(:first-child) {
+      @media @tablet {
+        padding-left: 20px;
+        border-left: 1px solid @brand-gray-medium;
+      }
+    }
+  }
+  &__heading {
+    .flex;
+    .justify-content-between;
+    position: relative;
+    font-weight: 500;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin: 0;
+
+    @media @mobile {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+      .icon-chevron:before {
+        content: @icon-chevron-down;
+      }
+    }
+
+    // only when radio checked
+    &:before {
+      .position-absolute;
+      bottom: -8px;
+      content: '';
+      height: 4px;
+      width: 71px;
+      display: block;
+      background-color: transparent;
+      @media @tablet {
+        .bg-primary;
+      }
+    }
+  }
+
+  &__link-list {
+    margin: 0px;
+    list-style: none;
+    color: @footer-text-color;
+    @media @mobile {
+      overflow: hidden;
+      width: 100%;
+      padding: 25px 0 15px 0;
+    }
+    @media @tablet {
+      padding: 30px 0 0 0;
+    }
+  }
+  &__link {
+    margin-bottom: 10px;
+    a {
+      color: @footer-text-color;
+      .pointer;
+    }
+
+    &--icon {
+      font-size: 20px;
+    }
+
+    .nav__button {
+      .p0;
+      color: @brand-gray-dark;
+      font-weight: normal;
+      text-transform: initial;
+    }
+  }
+
+  &__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 40px 15px 38px 15px;
+    border-top: 1px solid @footer-border-color;
+    -webkit-box-shadow: 0px -6px 8px -6px @footer-border-color;
+    box-shadow: 0px -6px 8px -6px @footer-border-color;
+    @media (min-width: @screen-lg-min) {
+      padding: 40px 121px 38px 121px;
+    }
+  }
+
+  &__bottom {
+    width: 100%;
+    float: left;
+    background-color: @copyright-background;
+    padding: 40px 25px 38px 25px;
+    border-top: none;
+    font-size: 12px;
+    .content {
+      font-size: 12px;
+    }
+    @media (min-width: @screen-lg-min) {
+      padding: 31px 121px 43px 121px;
+    }
+    @media (min-width: @screen-lg-min) {
+      border-top: 1px solid @footer-border-color;
+    }
+    .banner__component {
+      display: inline-block;
+      text-align: center;
+      font-size: 20px;
+      padding: 0px 20px 18px 20px;
+      img {
+        width: 20px !important;
+        height: 20px;
+        color: @footer-icon-color;
+      }
+    }
+    .page-preCheckoutPage &,
+    &--stepped-checkout,
+    .page-register & {
+      @media (max-width: @screen-xs-max) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

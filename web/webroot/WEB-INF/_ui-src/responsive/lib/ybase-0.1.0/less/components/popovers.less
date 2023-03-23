@@ -1,0 +1,86 @@
+.popover {
+  border: 1px solid @border-color;
+  border-radius: 2px;
+  -webkit-box-shadow: @box-shadow-light;
+  box-shadow: @box-shadow-light;
+  z-index: 19;
+  .promo {
+    &__offer-name {
+      color: @brand-warning;
+      .font-primary-bold;
+      margin-bottom: 5px;
+    }
+    .promo__offer-description {
+      margin-bottom: 5px;
+    }
+    &__offer-title {
+      border-bottom: 1px solid @border-color;
+      font-size: 16px;
+    }
+  }
+
+  &-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+  }
+  &.top {
+    margin-top: -15px;
+  }
+
+  &__header {
+    padding: 12px 34px 12px 12px;
+  }
+}
+
+.popover-content {
+  font-size: 12px;
+  padding: 12px 34px 12px 12px;
+}
+
+.popover .arrow {
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: @brand-white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); /* Prefixes... */
+    top: -8px;
+    left: 8px;
+    -webkit-box-shadow: @box-shadow-light;
+    box-shadow: @box-shadow-light;
+  }
+}
+
+.popover.top > .arrow {
+  border-width: 0;
+  bottom: -28px;
+  pointer-events: none;
+  margin-left: -9px;
+}
+
+.popover.bottom > .arrow {
+  border-width: 0;
+  top: -28px;
+  pointer-events: none;
+  margin-left: -9px;
+}
+
+.popover.bottom > .arrow:after {
+  top: 25px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  left: 8px;
+}

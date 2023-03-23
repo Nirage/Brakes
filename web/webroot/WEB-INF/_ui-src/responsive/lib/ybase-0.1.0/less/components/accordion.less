@@ -1,0 +1,83 @@
+.accordion {
+  border: 1px solid @brand-gray-medium;
+  border-radius: 4px;
+  background-color: @brand-white;
+  -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  &__title {
+    width: 100%;
+    font-size: 24px;
+    margin: 0;
+    padding-right: 20px;
+    position: relative;
+    &--right-text {
+      font-size: 18px;
+      text-align: right;
+      margin-top: 15px;
+    }
+  }
+  &__title-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+    &::before,
+    .icon-promo-alt {
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -10px;
+    }
+  }
+  &__section-heading {
+    .font-primary-bold;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  &__chevron {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    .collapsed & {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+  &__body {
+    border-top: 1px solid @brand-gray-medium;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    a {
+      .font-primary-bold;
+      text-decoration: underline;
+    }
+    .btn {
+      text-decoration: none;
+      line-height: 1;
+      margin-top: 20px; // only occurs in amplience accordion
+    }
+  }
+  &__table-desc {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    border-bottom: 1px solid @brand-gray-medium;
+  }
+  &--strong {
+    strong {
+      .font-primary-bold;
+    }
+  }
+  ul {
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+}

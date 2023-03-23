@@ -1,0 +1,7 @@
+<div class="item">
+    {{#each chooser}}
+        {{#if (test this.[@type] (toRegex ".*/accelerator-herobanner")) }} {{> herobanner_template }} {{/if}}
+        {{#if (test this.[@type] (toRegex ".*/accelerator-video")) }} {{> video_template }} {{/if}}
+        {{#if (test this.[@type] (toRegex ".*/accelerator-image")) }} {{> image_template }} {{/if}}
+    {{/each}}
+</div>

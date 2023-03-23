@@ -1,0 +1,73 @@
+.vouchers-dropdown {
+  float: left;
+  display: none;
+  width: 100%;
+  &.is-open {
+    display: block;
+  }
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid @border-color;
+  background-color: @white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  max-height: 152px;
+  overflow-y: auto;
+  &__toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    &.is-open {
+      transform: rotate(180deg);
+    }
+  }
+  &__item {
+    .font-primary-bold;
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid @border-color;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    &:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    &:hover {
+      background-color: @brand-gray-light;
+    }
+  }
+}
+
+.voucher-item {
+  position: relative;
+  &__col-left,
+  &__col-right {
+    width: 50%;
+    float: left;
+  }
+  &__col-right {
+    text-align: right;
+  }
+  &__order-code {
+    .font-primary-bold;
+    background: @btn-back-hover-bg;
+    border-radius: 2px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    font-size: 14px;
+    color: @brand-black;
+  }
+  &.is-redeemed {
+    color: @brand-gray;
+  }
+}

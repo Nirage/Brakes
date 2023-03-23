@@ -1,0 +1,22 @@
+<div class="amp-herobanner" >
+
+<div class="amp-herobanner__background amp-herobanner__background--desktop" style="background-image: url(https://i1.adis.ws/i/{{ image.endpoint }}/{{ image.name }}?$ca-hero-banner$)"></div>
+<div class="amp-herobanner__background amp-herobanner__background--mobile" style="background-image: url(https://i1.adis.ws/i/{{ imageMobile.endpoint }}/{{ imageMobile.name }}?$ca-hero-banner-mobile$)"></div>
+      <div class="amp-herobanner__content">
+          <div class="amp-herobanner__box amp-herobanner__box--align-{{textBoxAlignment}}">
+            {{#if heading}}
+                <div class="amp__heading">
+                    <h2 class="amp__heading-text amp__heading-text--align-{{headingAlignment}} amp__heading-underline--color-{{headingUnderlineColour}}">{{heading}}</h2>
+                </div>
+            {{/if}}
+            {{#if textBox}}
+              <p class="amp-herobanner__box-text amp-herobanner__box-text--align-{{textAlignment}}">{{textBox}}</p>
+            {{/if}}
+            {{#if textBox}}
+              <a class="amp-herobanner__box-btn btn btn-{{ctaType}} {{#if ctaBackgroundColour}}cta-background--{{ctaBackgroundColour}}{{/if}} {{#if ctaForegroundColour}} cta-foreground--{{ctaForegroundColour}}{{/if}}" href="{{ctaLink}}">{{ctaText}}</a>
+            {{/if}}
+              
+          </div>
+      </div>
+  
+</div>

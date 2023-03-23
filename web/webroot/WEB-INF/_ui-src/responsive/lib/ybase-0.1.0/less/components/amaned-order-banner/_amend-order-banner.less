@@ -1,0 +1,44 @@
+.amend-order-banner {
+  .bg-white;
+
+  &__container {
+    .container;
+    .flex;
+    @media @mobile {
+      .align-items-center;
+      flex-direction: column;
+    }
+    @media @tablet {
+      .pt1;
+      .pb1;
+    }
+  }
+
+  &__order-details {
+    .flex;
+    .flex-direction-column;
+    .justify-content-center;
+    @media @mobile {
+      .text-center;
+      .mt1;
+      .mb1;
+    }
+  }
+
+  &__CTA-container {
+    .flex;
+    .justify-content-center;
+    @media @mobile {
+      .mb1;
+      .btn {
+        margin: 0 6px;
+      }
+    }
+    @media @tablet {
+      margin-left: auto;
+      .btn-secondary--green {
+        .ml1;
+      }
+    }
+  }
+}

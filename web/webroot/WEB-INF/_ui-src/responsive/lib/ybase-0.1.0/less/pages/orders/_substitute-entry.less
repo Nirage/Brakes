@@ -1,0 +1,31 @@
+.substitute-entry {
+  padding: 18px 0;
+  border: 1px solid @border-color;
+  border-width: 1px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 18px;
+  &__img {
+    width: 100px;
+    margin-right: 10px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    img {
+      border: 1px solid @border-color;
+    }
+  }
+  &__code,
+  &__name {
+    .font-primary-bold;
+    font-size: 16px;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 8px;
+  }
+  &__pack-size {
+    .font-primary-bold;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

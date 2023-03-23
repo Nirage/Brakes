@@ -1,0 +1,137 @@
+.amp-herobanner {
+  position: relative;
+  width: 100%;
+  float: left;
+  clear: both;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-height: 300px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+
+  &--spacing {
+    .p0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    @media @tablet {
+      padding: 30px 80px !important;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+  &__content {
+    @media (min-width: @screen-sm-min) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 30px 80px;
+    }
+  }
+
+  &__box-text {
+    min-height: 80px;
+    font-size: 16px;
+    &--align-right {
+      text-align: right;
+    }
+    &--align-center {
+      text-align: center;
+    }
+  }
+  &__box-btn {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: auto;
+  }
+  &__box {
+    position: relative;
+    background: @brand-white;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 200px 20px 20px;
+    @media (max-width: @screen-xs-max) {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      border-radius: 0;
+      width: calc(~'100% - 40px');
+    }
+    @media (min-width: @screen-sm-min) {
+      min-width: 325px;
+      max-width: 325px;
+      min-height: 240px;
+      margin-top: inherit;
+      margin-bottom: inherit;
+    }
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    &--align-right {
+      @media (min-width: @screen-sm-min) {
+        float: right;
+      }
+    }
+    &--align-center {
+      @media (min-width: @screen-sm-min) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  &__background {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: none;
+    &--mobile {
+      @media (max-width: @screen-xs-max) {
+        display: block;
+      }
+    }
+    &--desktop {
+      @media (min-width: @screen-sm-min) {
+        display: block;
+      }
+    }
+  }
+  &:not(.has-content) {
+    @media @mobile {
+      min-height: 210px;
+    }
+    @media @tablet {
+      min-height: 280px;
+    }
+  }
+
+  .lazyload,
+  .lazyloading {
+    @media @mobile {
+      height: 210px;
+    }
+    @media @tablet {
+      max-height: 300px;
+      aspect-ratio: 4/1;
+    }
+  }
+
+  @media @mobile {
+    img {
+      width: 100%;
+    }
+  }
+}

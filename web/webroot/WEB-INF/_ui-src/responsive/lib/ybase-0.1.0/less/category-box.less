@@ -1,0 +1,115 @@
+.category-box {
+  @media (min-width: @screen-xs-min) {
+    position: relative;
+    border: 1px solid @brand-gray-medium;
+    border-radius: 4px;
+    background-color: @brand-white;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  &__heading {
+    display: none;
+    @media (min-width: @screen-xs-min) {
+      color: @brand-gray-dark;
+      font-size: 24px;
+      line-height: 50px;
+      border-bottom: 1px solid @brand-gray-medium;
+      display: block;
+    }
+  }
+
+  &__itembox {
+    padding: 0;
+    display: block;
+    margin-bottom: 0;
+  }
+
+  &__item {
+    color: @brand-gray-dark;
+    font-size: 16px;
+    display: table-cell;
+    white-space: nowrap;
+    padding-right: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    @media (min-width: @screen-xs-min) {
+      line-height: 50px;
+      border-bottom: 1px solid @brand-gray-medium;
+      list-style: none;
+      font-weight: normal;
+      text-decoration: none;
+      display: block;
+      position: relative;
+    }
+  }
+
+  &__item-text {
+    @media (min-width: @screen-xs-min) {
+      max-width: 90%;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__item-icon {
+    display: none;
+    @media (min-width: @screen-xs-min) {
+      display: block;
+    }
+    line-height: 50px;
+    float: right;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: @brand-white;
+  }
+
+  &__btn {
+    display: none;
+    @media (min-width: @screen-xs-min) {
+      display: block;
+    }
+
+    &--margin-top {
+      margin-top: 20px;
+    }
+    font-size: 16px;
+    text-align: center;
+    color: @brand-gray-dark;
+    font-weight: bold;
+
+    &-text {
+      display: inline-block;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    &-icon {
+      cursor: pointer;
+      font-size: 14px;
+      padding: 5px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+}
+
+.category-item-wrapper {
+  @media (min-width: @screen-xs-min) {
+    overflow-x: hidden;
+  }
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    appearance: none;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: @brand-gray-medium;
+    box-shadow: 0 0 1px @brand-gray-medium;
+  }
+}

@@ -1,0 +1,118 @@
+.cart-header {
+  height: 50px;
+  background: @brand-gray-light;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 0 20px;
+
+  @media (min-width: @screen-md-min) {
+    padding: 0 20px;
+  }
+
+  &--minicart {
+    margin: 0;
+    padding: 0 4px 0 20px;
+  }
+
+  &__id {
+    font-size: 16px;
+    line-height: 23px;
+
+    @media (min-width: @screen-sm-min) {
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    .cart-header--minicart & {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+  &__actions,
+  &__actions-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  &__actions {
+    position: relative;
+  }
+
+  &__actions-menu {
+    height: 44px;
+    width: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    &.is-active {
+      background: @brand-white;
+      border: 1px solid @brand-gray-medium;
+      border-radius: 4px;
+      width: 50px;
+    }
+  }
+
+  &__actions-item {
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+    .icon {
+      margin-right: 5px;
+    }
+    &__button {
+      border: none;
+      font-weight: normal;
+      background: transparent;
+      padding: 0;
+      &--notPlain {
+        cursor: auto;
+
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
+  
+  &__wishlist-holder {
+    position: absolute;
+    top: 30px;
+    right: 12px;
+    
+    .wishlist-popover {
+      &:before {
+        left: 15px;
+      }
+    }
+  }
+  &__actions-menu {
+    position: relative;
+  }
+}

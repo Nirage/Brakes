@@ -1,0 +1,32 @@
+.mini-basket-qty-picker {
+  padding: 25px 0 5px;
+
+  &__form {
+    width: 120px;
+    float: left;
+  }
+
+  &__remove {
+    float: right;
+    padding: 10px 0;
+    background: transparent;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: @text-color;
+    }
+
+    .icon {
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }
+  }
+
+  &__remove-text {
+    .font-primary;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+}

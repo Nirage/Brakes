@@ -1,0 +1,70 @@
+@__nav-tablet-height: 50px;
+
+.navigation {
+  position: relative;
+}
+
+.main-nav {
+  &__categories {
+    height: @__nav-tablet-height;
+    overflow: hidden;
+  }
+  &__control {
+    height: @__nav-tablet-height;
+    position: absolute;
+    top: 0;
+    background: #f1f1f1;
+    width: 30px;
+    z-index: 3;
+
+    &--prev {
+      left: 0px;
+      -webkit-box-shadow: 5px 0 5px -1px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 0 5px -1px rgba(0, 0, 0, 0.2);
+    }
+    &--next {
+      right: 0px;
+      -webkit-box-shadow: -5px 0 5px -1px rgba(0, 0, 0, 0.2);
+      box-shadow: -5px 0 5px -1px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__control-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.navigation-tablet {
+  .main-nav {
+    &__categories-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      overflow-x: auto;
+      .desktop & {
+        // Hack for desktop browsers to hide scroll bars
+        overflow-x: hidden;
+      }
+    }
+    &__control {
+      display: none;
+      cursor: pointer;
+      &.is-active {
+        display: block;
+      }
+    }
+    &__categories {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      box-flex: 0;
+    }
+  }
+}

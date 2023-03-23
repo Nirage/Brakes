@@ -1,0 +1,49 @@
+// We use mobile first approach
+// Base	up to 767px
+// Tablet	from 768px
+// Desktop	from 1200px
+
+@screenSm: 768px;
+@screenSmMd: 1024px;
+@screenMd: 1240px;
+@screenLg: 1400px;
+
+//------------------------------
+// Start: Depricated Variables
+//------------------------------
+// Please do not use them
+// However we need as a fallback as those are bing used in ybase
+@screenXs: @screenSm;
+
+// End: Depricated variables
+//------------------------------
+
+@screenXsMin: @screenXs;
+@screenSmMin: @screenSm;
+@screenSmMdMin: @screenSmMd;
+@screenMdMin: @screenMd;
+@screenLgMin: @screenLg;
+
+@screenXsMax: (@screenSm - 1);
+@screenSmMax: (@screenMd - 1);
+@screenSmMdMax: (@screenSmMd - 1);
+@screenMdMax: (@screenLg - 1);
+
+//----------------------------------------------------
+// Remaping variables - for old Bootstrap
+// Do not modify it
+//----------------------------------------------------
+@screen-xs: @screenXs;
+@screen-sm: @screenSm;
+@screen-md: @screenMd;
+@screen-lg: @screenLg;
+
+@screen-xs-min: @screenXsMin;
+@screen-sm-min: @screenSmMin;
+@screen-sm-md-min: @screenSmMdMin; // added in extra small desktop breakpoint
+@screen-md-min: @screenMdMin;
+@screen-lg-min: @screenLgMin;
+@screen-xs-max: @screenXsMax;
+@screen-sm-md-max: @screenSmMdMax; // added in extra small desktop breakpoint
+@screen-sm-max: @screenSmMax;
+@screen-md-max: @screenMdMax;

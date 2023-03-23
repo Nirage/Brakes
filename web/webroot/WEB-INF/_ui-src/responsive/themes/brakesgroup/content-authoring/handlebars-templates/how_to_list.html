@@ -1,0 +1,64 @@
+<div class="container mb2 amp-howto">
+    <h1>{{pageTitle}}</h1> 
+    <p>{{#markdown bodyCopy}}{{/markdown}}</p>
+    
+    <div class="row v-accordion__wrapper v-accordion__wrapper--howto">
+    
+        {{#each cards}}
+            <input type="radio" id="amp-howto-tabs-{{dashcase _meta.name}}" name="tabs-component">
+        {{/each}}
+        
+        <div class="col-sm-3 p0 v-accordion__tabs">
+            {{#each cards}}
+            <label for="amp-howto-tabs-{{dashcase _meta.name}}" class="v-accordion__tab">{{this.desktopNavTitle}}</label>
+            {{/each}}
+        </div>
+        
+        <div class="col-xs-12 col-sm-9 v-accordion__outer">
+            {{#each cards}}
+            <div class="v-accordion">
+                <label for="amp-howto-tabs-{{dashcase _meta.name}}" class="v-accordion__heading">
+                   {{this.mobileNavTitle}}<i class="icon icon-chevron"></i>
+                </label>
+            
+            
+                <div class="v-accordion__panel">
+                    <div class="v-accordion__title hide-mobile">{{this.sectionTitle}}</div>
+                    <div class="v-accordion__content col-md-10 p0 flex flex-direction-column">
+                        <div class="account__text-block h-space-3">
+                            {{#markdown this.sectionBody}}{{/markdown}}
+                        </div>
+                        
+                        {{#if video}}
+                        <div class="amp-video amp-video--white-desktop amp-video-partial">
+                            <video width="100%" height="auto" playsinline controls preload="metadata" muted>
+                                <source src="https://{{video.defaultHost}}/v/{{video.endpoint}}/{{video.name}}/mp4_720p?codec=h264&protocol=https" type="video/mp4">
+                            </video>
+                        </div>
+                        {{/if}}
+                        
+                        <input type="radio" class="feedback--yes" id="feedback-yes-{{dashcase _meta.name}}" name="feedback-{{dashcase _meta.name}}">
+                        <input type="radio" class="feedback--no" id="feedback-no-{{dashcase _meta.name}}" name="feedback-{{dashcase _meta.name}}">
+                        
+                        <div class="flex mb1 mt1 flex-wrap">
+                            <p class="full-width-mobile text-center">Did this video answer your question?</p>
+                            <label for="feedback-yes-{{dashcase _meta.name}}" class="btn btn-primary btn--how-to-feedback">Yes</label>
+                            <label for="feedback-no-{{dashcase _meta.name}}" class="btn btn-primary btn--how-to-feedback">No</label>
+                        </div>
+                        
+                        <div class="account__text-block account__text-block--toggle account__text-block--yes h-space-3">
+                            <p><b>Thank you for your feedback</b></p>
+                        </div>
+
+                        <div class="account__text-block account__text-block--toggle account__text-block--no h-space-3">
+                            {{#markdown ../contactInformation}}{{/markdown}}
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            {{/each}}
+        </div>
+
+    </div>
+    
+</div>

@@ -1,0 +1,5 @@
+<div class="amp-cardlist row">
+    {{#each chooser}}
+        <div class="col-xs-12 {{#if (eq ../chooser.length 5) }}amp-cardlist--5-col{{else}}col-sm-{{divide 12 ../chooser.length}}{{/if}}">{{> card_template}}</div>
+    {{/each}}
+</div>

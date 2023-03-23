@@ -1,0 +1,21 @@
+<div class="accordion">
+  <div class="accordion__heading" role="tab" id="heading{{tabIndex}}">
+    <h4 class="accordion__title" role="button" data-toggle="collapse" data-parent="#{{parentId}}" data-target="#{{parentId}}{{tabIndex}}" aria-expanded="true" aria-controls="{{parentId}}{{tabIndex}}">
+      {{#if headingIcon }}
+        <span class="accordion__title-icon icon icon-{{headingIcon}}"></span>
+      {{/if}}
+      {{heading}}
+      <span class="accordion__chevron icon icon-chevron-down"></span>
+
+    </h4>
+    
+  </div>
+	<div id="{{parentId}}{{tabIndex}}" class="js-pdpAccordionCollapse accordion__collapse collapse {{#if (test expanded (toRegex 'true'))}}in{{/if}}" role="tabpanel" aria-labelledby="heading{{tabIndex}}" aria-expanded="true" style="">
+		<div class="accordion__body">
+            {{{ bodyText }}}
+            {{#if ctaText}}
+                <a href="{{ctaLink}}" class="amp-leaderboard__btn btn btn-{{ctaType}} amp-leaderboard__btn-align--{{ctaAlignment}} {{#if ctaBackgroundColour}}cta-background--{{ctaBackgroundColour}}{{/if}} {{#if ctaForegroundColour}} cta-foreground--{{ctaForegroundColour}}{{/if}}">{{ctaText}}</a>
+            {{/if}}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+.item-icons {
+  &--promo,
+  &--first {
+    display: inline-block;
+    padding-top: 1px;
+  }
+  &--second {
+    margin-left: 1px;
+  }
+  &--user-actions {
+    float: right;
+    .icon-recent-purchases,
+    .icon-Heart,
+    .icon-heart-filled,
+    .icon-user-actions {
+      cursor: pointer;
+      font-size: 19px;
+      border-radius: 100%;
+      padding: 2px;
+      border: 1px solid @brand-gray-medium;
+      background-color: rgba(255, 255, 255, 0.95);
+      -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    }
+    .icon-recent-purchases {
+      margin-right: 5px;
+    }
+    .icon-Heart,
+    .icon-heart-filled {
+      &:before {
+        color: @brand-primary;
+      }
+    }
+  }
+
+  &--promo-no-action {
+    .icon-user-actions {
+      cursor: default;
+    }
+  }
+}

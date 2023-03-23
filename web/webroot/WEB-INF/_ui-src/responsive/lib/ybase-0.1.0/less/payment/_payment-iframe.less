@@ -1,0 +1,49 @@
+#addPaymentCardModal {
+  .modal-dialog {
+    .modal-header {
+      background: @brand-primary;
+      .modal-title {
+        color: @brand-white;
+      }
+    }
+    @media screen and (min-width: @screen-md-min) {
+      width: 40%;
+      height: 90%;
+    }
+    .modal-body {
+      height: calc(~"100vh - 58px");
+      @media screen and (min-width: @screen-md-min) {
+        height: 90%;
+      }
+    }
+  }
+}
+
+#paymentErrorModal {
+  .modal-dialog {
+    .modal-header__inner {
+      border-bottom: none;
+    }
+  }
+}
+
+.b2b-payment-iframe {
+  &__container {
+    height: 100%;
+    iframe {
+      width: 95%;
+      height: calc(~"100vh - 115px");
+      .iOS & {
+        @media screen and (max-width: @screen-xs-max) {
+          height: calc(~"100vh - 200px");
+        }
+      }
+      @media screen and (min-width: @screen-md-min) {
+        height: 800px;
+        width: 100%;
+        border: none;
+        height: 95%;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+#saveAndExit {
+    .vertical-alignment-helper {
+        display: flex;
+        justify-content: center;
+        @media (max-width: @screen-xs-max) {
+         align-items: flex-start;
+        }
+        align-items: center;
+    }
+    .modal-dialog {
+        max-width: 490px;
+        margin: 0;
+      .modal-header {
+        .modal-title {
+          font-size: 22px;
+          .font-primary;
+        }
+      }
+    }
+}
+.saveAndExit {
+    &__hr {
+        border: 1px solid #D9D9D9;
+    }
+}

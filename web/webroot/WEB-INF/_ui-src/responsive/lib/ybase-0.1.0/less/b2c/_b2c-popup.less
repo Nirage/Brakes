@@ -1,0 +1,41 @@
+@import "./_b2c-general.less";
+@import "./pop-up/_b2c-adaptiveLabel.less";
+@import "./pop-up/_b2c-livePostCodeSearch.less";
+@import "./pop-up/_b2c-signUp.less";
+@import "./pop-up/_b2c-signUpSuccess.less";
+@import "./pop-up/_b2c-logIn.less";
+@import "./pop-up/_b2c-forgotten-password.less";
+@import "./pop-up/_b2c-forgotten-password-message.less";
+
+.b2c-popup {
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  max-height: 100%;
+  margin: 0px auto;
+  padding: 30px 20px;
+  background: @white;
+  overflow-y: hidden;
+  padding-bottom: 226px;
+  @media screen and (min-width: @screen-sm-min) {
+    max-width: 380px;
+    margin-top: 70px;
+  }
+  @media screen and (min-width: @screen-md-min) {
+    max-width: 340px;
+    margin-top: 90px;
+  }
+  &__overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+  }
+}

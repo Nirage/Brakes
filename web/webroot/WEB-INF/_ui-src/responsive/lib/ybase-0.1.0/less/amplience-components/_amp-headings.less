@@ -1,0 +1,130 @@
+.amp {
+  &__heading {
+    position: relative;
+    width: 100%;
+  }
+  &__heading-text {
+    color: @brand-gray-dark;
+    margin-top: 0;
+    margin-bottom: 20px;
+    &:after {
+      background: @brand-primary;
+    }
+    h1&,
+    h3& {
+      .font-primary-bold;
+    }
+    h1&,
+    h2& {
+      &:after {
+        content: "";
+        width: 71px;
+        height: 5px;
+        display: block;
+        margin-top: 10px;
+      }
+    }
+    h1& {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    h2& {
+      font-size: 24px;
+      line-height: 26px;
+    }
+    h3& {
+      font-size: 18px;
+      line-height: 23px;
+    }
+    h4& {
+      font-size: 18px;
+      line-height: 23px;
+    }
+    h5& {
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+    &--align {
+      &-left {
+        text-align: left;
+        &:after {
+          left: 0;
+        }
+      }
+      &-right {
+        text-align: right;
+        &:after {
+          margin-left: auto;
+          margin-right: 0;
+        }
+      }
+      &-center {
+        text-align: center;
+        &:after {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  &__heading-underline {
+    &--color {
+      &-green {
+        &:after {
+          background: @brand-common-green;
+        }
+      }
+      &-dark-green {
+        &:after {
+          background: @brand-common-dark-green;
+        }
+      }
+      &-red {
+        &:after {
+          background: @brand-warning;
+        }
+      }
+      &-white {
+        &:after {
+          background: @brand-white;
+        }
+      }
+      &-blue-gray {
+        &:after {
+          background: @brand-common-blue-gray;
+        }
+      }
+      &-dark-gray {
+        &:after {
+          background: @brand-gray-dark;
+        }
+      }
+      &-aa-gray {
+        &:after {
+          background: @brand-gray;
+        }
+      }
+      &-light-gray {
+        &:after {
+          background: @brand-gray-light;
+        }
+      }
+      &-purple {
+        &:after {
+          background: @brand-common-purple;
+        }
+      }
+      &-blue {
+        &:after {
+          background: @brand-common-blue;
+        }
+      }
+      &-dark-purple {
+        &:after {
+          background: @brand-common-dark-purple;
+        }
+      }
+    }
+  }
+}

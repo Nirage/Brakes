@@ -1,0 +1,105 @@
+.nectar {
+  &__tile {
+    text-align: center;
+
+    margin: 0 auto;
+    @media (min-width: @screen-sm-min) {
+      max-width: 283px;
+    }
+  }
+}
+.nectarBanner {
+  &--no-margins {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  &__title {
+    .font-primary-bold;
+    font-size: 32px;
+    color: @text-color;
+  }
+  &__subTitle {
+    font-size: 24px;
+    .font-primary;
+    color: @text-color;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  &__subText {
+    .font-primary;
+    font-size: 16px;
+    color: @text-color;
+  }
+  &__subText--bold {
+    .font-primary-bold;
+    font-size: 16px;
+    color: @text-color;
+    text-decoration: underline;
+  }
+  &__clear {
+    clear: both;
+  }
+  &__center {
+    text-align: center;
+  }
+  &__h-space--xs {
+    margin-bottom: 24px;
+  }
+  &__bg {
+    background-color: @brand-gray-darker;
+  }
+  &__bg--plain {
+    background-color: @brand-white;
+    padding: 24px;
+  }
+  &__bg--box {
+    background-color: @brand-gray-darker;
+    height: 170px;
+  }
+  &__bordered {
+    border: 1px solid @brand-gray-medium;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  &__delete {
+    border-left: 1px solid @brand-gray-medium;
+    padding: 8px;
+    cursor: pointer;
+    @media (min-width: @screen-sm-min) {
+      border: none;
+    }
+  }
+  &__topBorder {
+    border-top: 1px solid @brand-gray-medium;
+    padding-top: 24px;
+  }
+  &__link {
+    cursor: pointer;
+    display: inline-block;
+    .icon {
+      font-size: 18px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    &__anchor {
+      vertical-align: middle;
+    }
+  }
+}
+//disable section
+.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}

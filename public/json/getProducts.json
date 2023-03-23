@@ -1,0 +1,2405 @@
+{
+    "results": [
+        {
+            "code": "121165",
+            "name": "Brakes Freshly Squeezed Orange Juice with bits",
+            "url": "/drinks-snacks/cold-beverages/pure-juice-smoothies/chilled-juice/brakes-freshly-squeezed-orange-juice-with-bits/p/121165",
+            "description": null,
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 29.65,
+                "priceType": "BUY",
+                "formattedValue": "£29.65",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/121165_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/121165_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Chilled Juice",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Pure Juice & Smoothies",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Cold Beverages",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "C",
+            "packSize": "6 x 2.27ltr",
+            "newProduct": true,
+            "productInfoIcons": [
+                "E55",
+                "E56",
+                "PP19"
+            ],
+            "unitPriceDescriptor": "/ltr",
+            "unitPriceStr": "£2.18/ltr",
+            "pricePerDivider": 13.62,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000121165",
+            "subjectToVAT": true,
+            "unitsPerCase": 1,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": true,
+            "wasPrice": null,
+            "channelStatus": null,
+            "netWeight": 13.62,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": false,
+            "perfectWith": false
+        },
+        {
+            "code": "118260",
+            "name": "McVitie's Digestives Original Biscuits",
+            "url": "/drinks-snacks/snacks-confectionery/sweet-biscuits-cookies-and-cakes/plain-biscuits/mcvitie-s-digestives-original-biscuits/p/118260",
+            "description": "Wheatmeal Biscuits",
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 28.34,
+                "priceType": "BUY",
+                "formattedValue": "£28.34",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/118260_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/118260_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Snacks & Confectionery",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Sweet Biscuits, Cookies And Cakes",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Plain Biscuits",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "A",
+            "packSize": "24 x 250g",
+            "newProduct": true,
+            "productInfoIcons": [
+                "E55",
+                "E56",
+                "PP19"
+            ],
+            "unitPriceDescriptor": "/kg",
+            "unitPriceStr": "£4.72/kg",
+            "pricePerDivider": 6,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000118260",
+            "subjectToVAT": false,
+            "unitsPerCase": 1,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": false,
+            "wasPrice": null,
+            "channelStatus": null,
+            "netWeight": 6.4,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": false,
+            "perfectWith": false
+        },
+        {
+            "code": "120645",
+            "name": "Popworks Salted                   24x17g",
+            "url": "/drinks-snacks/snacks-confectionery/crisps-snacks-nuts/popcorn/popworks-salted-24x17g/p/120645",
+            "description": null,
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 11.99,
+                "priceType": "BUY",
+                "formattedValue": "£11.99",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/120645_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/120645_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Snacks & Confectionery",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Crisps, Snacks & Nuts",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Popcorn",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "A",
+            "packSize": "24X17G",
+            "newProduct": true,
+            "productInfoIcons": [
+                "E55"
+            ],
+            "unitPriceDescriptor": "/ea",
+            "unitPriceStr": "£0.50/ea",
+            "pricePerDivider": 24,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000120645",
+            "subjectToVAT": true,
+            "unitsPerCase": 1,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": false,
+            "wasPrice": null,
+            "channelStatus": null,
+            "netWeight": 0.41,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": false,
+            "perfectWith": true
+        },
+        {
+            "code": "121041",
+            "name": "Snacking Essentials Fruit & Seed",
+            "url": "/drinks-snacks/snacks-confectionery/crisps-snacks-nuts/fruit-nut/snacking-essentials-fruit-seed/p/121041",
+            "description": "A mix of golden raisins, goji berries, pumpkin seeds, raisins and sunflower seeds.",
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 6.39,
+                "priceType": "BUY",
+                "formattedValue": "£6.39",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/121041_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/121041_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Snacks & Confectionery",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Fruit & Nut",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Crisps, Snacks & Nuts",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "A",
+            "packSize": "16 x 50g",
+            "newProduct": true,
+            "productInfoIcons": [
+                "E55"
+            ],
+            "unitPriceDescriptor": "/ea",
+            "unitPriceStr": "£0.40/ea",
+            "pricePerDivider": 16,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000121041",
+            "subjectToVAT": false,
+            "unitsPerCase": 1,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": false,
+            "wasPrice": {
+                "currencyIso": "GBP",
+                "value": 8.39,
+                "priceType": "BUY",
+                "formattedValue": "£8.39",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "channelStatus": null,
+            "netWeight": 0.8,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": true,
+            "perfectWith": false
+        },
+        {
+            "code": "41",
+            "name": "Coca-Cola Original Taste 500ml",
+            "url": "/drinks-snacks/cold-beverages/carbonates/cola/coca-cola-original-taste-500ml/p/41",
+            "description": "Bottle",
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 22.24,
+                "priceType": "BUY",
+                "formattedValue": "£22.24",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/41_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/41_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Cola",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Cold Beverages",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Carbonates",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "A",
+            "packSize": "24 x 500ml",
+            "newProduct": false,
+            "productInfoIcons": [
+                "E55",
+                "E56"
+            ],
+            "unitPriceDescriptor": "/ea",
+            "unitPriceStr": "£0.93/ea",
+            "pricePerDivider": 24,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000000041",
+            "subjectToVAT": true,
+            "unitsPerCase": 1,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": false,
+            "wasPrice": {
+                "currencyIso": "GBP",
+                "value": 24.24,
+                "priceType": "BUY",
+                "formattedValue": "£24.24",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "channelStatus": null,
+            "netWeight": 11.72,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": false,
+            "perfectWith": false
+        },
+        {
+            "code": "522",
+            "name": "Typhoo 1100 Tea Single Serve Teabags 2.5kg",
+            "url": "/drinks-snacks/hot-beverages/tea/catering/typhoo-1100-tea-single-serve-teabags-2-5kg/p/522",
+            "description": "Typhoo Rainforest Alliance 1100 Black Tea Bags",
+            "purchasable": null,
+            "stock": null,
+            "futureStocks": null,
+            "availableForPickup": null,
+            "averageRating": null,
+            "numberOfReviews": null,
+            "summary": null,
+            "manufacturer": null,
+            "variantType": null,
+            "price": {
+                "currencyIso": "GBP",
+                "value": 15.59,
+                "priceType": "BUY",
+                "formattedValue": "£15.59",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "baseProduct": null,
+            "images": [
+                {
+                    "imageType": "PRIMARY",
+                    "format": "thumbnail",
+                    "url": "https://i1.adis.ws/i/Brakes/522_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                },
+                {
+                    "imageType": "PRIMARY",
+                    "format": "product",
+                    "url": "https://i1.adis.ws/i/Brakes/522_1?.jpg",
+                    "altText": null,
+                    "galleryIndex": null,
+                    "width": null,
+                    "cleanUrl": null
+                }
+            ],
+            "categories": [
+                {
+                    "code": null,
+                    "name": "Catering",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Drinks & Snacks",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Food",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Tea",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                },
+                {
+                    "code": null,
+                    "name": "Hot Beverages",
+                    "url": null,
+                    "description": null,
+                    "image": null,
+                    "parentCategoryName": null,
+                    "sequence": 0
+                }
+            ],
+            "reviews": null,
+            "classifications": [],
+            "potentialPromotions": null,
+            "variantOptions": null,
+            "baseOptions": null,
+            "volumePricesFlag": false,
+            "volumePrices": null,
+            "productReferences": null,
+            "variantMatrix": null,
+            "priceRange": {
+                "minPrice": null,
+                "maxPrice": null
+            },
+            "firstCategoryNameList": null,
+            "multidimensional": null,
+            "configurable": null,
+            "configuratorType": null,
+            "addToCartDisabled": null,
+            "addToCartDisabledMessage": null,
+            "tags": null,
+            "keywords": null,
+            "externalPriceStr": null,
+            "externalPrice": null,
+            "prefix": "A",
+            "packSize": "1 x 1100",
+            "newProduct": false,
+            "productInfoIcons": [
+                "E55",
+                "E56"
+            ],
+            "unitPriceDescriptor": "/ea",
+            "unitPriceStr": "£0.01/ea",
+            "pricePerDivider": 1100,
+            "cartEntry": null,
+            "guidanceSheet": null,
+            "safetyDataSheet": null,
+            "secondaryTitle": null,
+            "shortMarketingDesc": null,
+            "sapProductCode": "000000000000000522",
+            "subjectToVAT": false,
+            "unitsPerCase": 2,
+            "inFavourites": null,
+            "isDiscontinued": false,
+            "isOutOfStock": false,
+            "hasPDPHandlingInstructions": null,
+            "hasPDPCookingInstructions": null,
+            "saleableUnitsHeight": null,
+            "saleableUnitsLength": null,
+            "saleableUnitsWidth": null,
+            "hasPotentialPromo": false,
+            "wasPrice": {
+                "currencyIso": "GBP",
+                "value": 17.59,
+                "priceType": "BUY",
+                "formattedValue": "£17.59",
+                "minQuantity": null,
+                "maxQuantity": null
+            },
+            "channelStatus": null,
+            "netWeight": 2.678,
+            "itemCategoryGroup": false,
+            "estimatedPrice": null,
+            "estimatedWasPrice": null,
+            "nettPrices": false,
+            "alternatives": false,
+            "perfectWith": false
+        }
+    ],
+    "sorts": [
+        {
+            "code": "relevance",
+            "name": "Relevance",
+            "selected": true
+        },
+        {
+            "code": "price-asc",
+            "name": "Price (Low to High)",
+            "selected": false
+        },
+        {
+            "code": "price-desc",
+            "name": "Price (High to Low)",
+            "selected": false
+        },
+        {
+            "code": "name-asc",
+            "name": "Name (A to Z)",
+            "selected": false
+        },
+        {
+            "code": "name-desc",
+            "name": "Name (Z to A)",
+            "selected": false
+        }
+    ],
+    "pagination": {
+        "pageSize": 100,
+        "currentPage": 0,
+        "sort": "relevance",
+        "numberOfPages": 1,
+        "totalNumberOfResults": 6
+    },
+    "freeTextSearch": "",
+    "currentQuery": {
+        "url": "/search?q=%3Arelevance",
+        "query": {
+            "value": ":relevance",
+            "filterQueries": [],
+            "searchQueryContext": null
+        },
+        "categoryIndex": false,
+        "paginationUrl": "/search?q=%3Arelevance",
+        "productSearch": false,
+        "productCode": null,
+        "interactionStudioSearch": false,
+        "productCodes": null
+    },
+    "breadcrumbs": [],
+    "facets": [
+        {
+            "code": "dietaryandlifestyle",
+            "name": "Dietary & Lifestyle",
+            "priority": 2147483647,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Suitable for Vegetarians|1",
+                    "name": "Suitable for Vegetarians",
+                    "count": 6,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ASuitable%2Bfor%2BVegetarians%257C1",
+                        "query": {
+                            "value": ":relevance:dietaryandlifestyle:Suitable+for+Vegetarians%7C1",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ASuitable%2Bfor%2BVegetarians%257C1",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Suitable for Vegans|2",
+                    "name": "Suitable for Vegans",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ASuitable%2Bfor%2BVegans%257C2",
+                        "query": {
+                            "value": ":relevance:dietaryandlifestyle:Suitable+for+Vegans%7C2",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ASuitable%2Bfor%2BVegans%257C2",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Does Not Contain Gluten|5",
+                    "name": "Does Not Contain Gluten",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ADoes%2BNot%2BContain%2BGluten%257C5",
+                        "query": {
+                            "value": ":relevance:dietaryandlifestyle:Does+Not+Contain+Gluten%7C5",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Adietaryandlifestyle%3ADoes%2BNot%2BContain%2BGluten%257C5",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Vegetarian Alternatives|6",
+                    "name": "Vegetarian Alternatives",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Adietaryandlifestyle%3AVegetarian%2BAlternatives%257C6",
+                        "query": {
+                            "value": ":relevance:dietaryandlifestyle:Vegetarian+Alternatives%7C6",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Adietaryandlifestyle%3AVegetarian%2BAlternatives%257C6",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Vegan Alternatives|7",
+                    "name": "Vegan Alternatives",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Adietaryandlifestyle%3AVegan%2BAlternatives%257C7",
+                        "query": {
+                            "value": ":relevance:dietaryandlifestyle:Vegan+Alternatives%7C7",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Adietaryandlifestyle%3AVegan%2BAlternatives%257C7",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "levelOneCategories",
+            "name": "Category",
+            "priority": 2147483646,
+            "category": true,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Drinks & Snacks",
+                    "name": "Drinks & Snacks",
+                    "count": 6,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AlevelOneCategories%3ADrinks%2B%2526%2BSnacks",
+                        "query": {
+                            "value": ":relevance:levelOneCategories:Drinks+%26+Snacks",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AlevelOneCategories%3ADrinks%2B%2526%2BSnacks",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "levelTwoCategories",
+            "name": "Sub-Category",
+            "priority": 2147483645,
+            "category": true,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Snacks & Confectionery",
+                    "name": "Snacks & Confectionery",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AlevelTwoCategories%3ASnacks%2B%2526%2BConfectionery",
+                        "query": {
+                            "value": ":relevance:levelTwoCategories:Snacks+%26+Confectionery",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AlevelTwoCategories%3ASnacks%2B%2526%2BConfectionery",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Cold Beverages",
+                    "name": "Cold Beverages",
+                    "count": 2,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AlevelTwoCategories%3ACold%2BBeverages",
+                        "query": {
+                            "value": ":relevance:levelTwoCategories:Cold+Beverages",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AlevelTwoCategories%3ACold%2BBeverages",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Hot Beverages",
+                    "name": "Hot Beverages",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AlevelTwoCategories%3AHot%2BBeverages",
+                        "query": {
+                            "value": ":relevance:levelTwoCategories:Hot+Beverages",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AlevelTwoCategories%3AHot%2BBeverages",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "promotion",
+            "name": "Promotion",
+            "priority": 2147483644,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "true",
+                    "name": "On Promotion",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Apromotion%3Atrue",
+                        "query": {
+                            "value": ":relevance:promotion:true",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Apromotion%3Atrue",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "nutsallergens",
+            "name": "Nuts Allergens",
+            "priority": 2147483642,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Almond|1",
+                    "name": "Almond",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3AAlmond%257C1",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Almond%7C1",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3AAlmond%257C1",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Hazelnut|2",
+                    "name": "Hazelnut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3AHazelnut%257C2",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Hazelnut%7C2",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3AHazelnut%257C2",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Walnut|3",
+                    "name": "Walnut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3AWalnut%257C3",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Walnut%7C3",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3AWalnut%257C3",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Cashew nut|4",
+                    "name": "Cashew nut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3ACashew%2Bnut%257C4",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Cashew+nut%7C4",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3ACashew%2Bnut%257C4",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Pecan nut|5",
+                    "name": "Pecan nut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3APecan%2Bnut%257C5",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Pecan+nut%7C5",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3APecan%2Bnut%257C5",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Brazil nut|6",
+                    "name": "Brazil nut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3ABrazil%2Bnut%257C6",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Brazil+nut%7C6",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3ABrazil%2Bnut%257C6",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Pistachio nut|7",
+                    "name": "Pistachio nut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3APistachio%2Bnut%257C7",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Pistachio+nut%7C7",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3APistachio%2Bnut%257C7",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Macadamia/queensland nut|8",
+                    "name": "Macadamia/queensland nut",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Anutsallergens%3AMacadamia%252Fqueensland%2Bnut%257C8",
+                        "query": {
+                            "value": ":relevance:nutsallergens:Macadamia%2Fqueensland+nut%7C8",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Anutsallergens%3AMacadamia%252Fqueensland%2Bnut%257C8",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "manufacturerAID",
+            "name": "Brand",
+            "priority": 2147483641,
+            "category": false,
+            "multiSelect": false,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Brakes",
+                    "name": "Brakes",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3ABrakes",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:Brakes",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3ABrakes",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Coca-Cola",
+                    "name": "Coca-Cola",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3ACoca-Cola",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:Coca-Cola",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3ACoca-Cola",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "McVitie's",
+                    "name": "McVitie's",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3AMcVitie%2527s",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:McVitie%27s",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3AMcVitie%2527s",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Pop Works",
+                    "name": "Pop Works",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3APop%2BWorks",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:Pop+Works",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3APop%2BWorks",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Snacking Essentials",
+                    "name": "Snacking Essentials",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3ASnacking%2BEssentials",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:Snacking+Essentials",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3ASnacking%2BEssentials",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Typhoo",
+                    "name": "Typhoo",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3AmanufacturerAID%3ATyphoo",
+                        "query": {
+                            "value": ":relevance:manufacturerAID:Typhoo",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3AmanufacturerAID%3ATyphoo",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "temperature",
+            "name": "Temperature",
+            "priority": 2147483640,
+            "category": false,
+            "multiSelect": false,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "A|Ambient",
+                    "name": "Ambient",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Atemperature%3AA%257CAmbient",
+                        "query": {
+                            "value": ":relevance:temperature:A%7CAmbient",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Atemperature%3AA%257CAmbient",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "C|Chilled",
+                    "name": "Chilled",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Atemperature%3AC%257CChilled",
+                        "query": {
+                            "value": ":relevance:temperature:C%7CChilled",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Atemperature%3AC%257CChilled",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "marketsector",
+            "name": "Market Sector",
+            "priority": 2147483639,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Hotel all|1",
+                    "name": "Hotel all",
+                    "count": 2,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AHotel%2Ball%257C1",
+                        "query": {
+                            "value": ":relevance:marketsector:Hotel+all%7C1",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AHotel%2Ball%257C1",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Care Home|3",
+                    "name": "Care Home",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ACare%2BHome%257C3",
+                        "query": {
+                            "value": ":relevance:marketsector:Care+Home%7C3",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ACare%2BHome%257C3",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Secondary School|6",
+                    "name": "Secondary School",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ASecondary%2BSchool%257C6",
+                        "query": {
+                            "value": ":relevance:marketsector:Secondary+School%7C6",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ASecondary%2BSchool%257C6",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "University|7",
+                    "name": "University",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AUniversity%257C7",
+                        "query": {
+                            "value": ":relevance:marketsector:University%7C7",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AUniversity%257C7",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Food Shop|8",
+                    "name": "Food Shop",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AFood%2BShop%257C8",
+                        "query": {
+                            "value": ":relevance:marketsector:Food+Shop%7C8",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AFood%2BShop%257C8",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Café / Snack Bar|9",
+                    "name": "Café / Snack Bar",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ACaf%25C3%25A9%2B%252F%2BSnack%2BBar%257C9",
+                        "query": {
+                            "value": ":relevance:marketsector:Caf%C3%A9+%2F+Snack+Bar%7C9",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ACaf%25C3%25A9%2B%252F%2BSnack%2BBar%257C9",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Coffee / Tea Shop|10",
+                    "name": "Coffee / Tea Shop",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ACoffee%2B%252F%2BTea%2BShop%257C10",
+                        "query": {
+                            "value": ":relevance:marketsector:Coffee+%2F+Tea+Shop%7C10",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ACoffee%2B%252F%2BTea%2BShop%257C10",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Business & Industry|12",
+                    "name": "Business & Industry",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ABusiness%2B%2526%2BIndustry%257C12",
+                        "query": {
+                            "value": ":relevance:marketsector:Business+%26+Industry%7C12",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ABusiness%2B%2526%2BIndustry%257C12",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Event / Outside Caterer|13",
+                    "name": "Event / Outside Caterer",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AEvent%2B%252F%2BOutside%2BCaterer%257C13",
+                        "query": {
+                            "value": ":relevance:marketsector:Event+%2F+Outside+Caterer%7C13",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AEvent%2B%252F%2BOutside%2BCaterer%257C13",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Golf Club|14",
+                    "name": "Golf Club",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AGolf%2BClub%257C14",
+                        "query": {
+                            "value": ":relevance:marketsector:Golf+Club%7C14",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AGolf%2BClub%257C14",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Sport Club / Leisure Centre|15",
+                    "name": "Sport Club / Leisure Centre",
+                    "count": 2,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ASport%2BClub%2B%252F%2BLeisure%2BCentre%257C15",
+                        "query": {
+                            "value": ":relevance:marketsector:Sport+Club+%2F+Leisure+Centre%7C15",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ASport%2BClub%2B%252F%2BLeisure%2BCentre%257C15",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Theme Park / Attraction|16",
+                    "name": "Theme Park / Attraction",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3ATheme%2BPark%2B%252F%2BAttraction%257C16",
+                        "query": {
+                            "value": ":relevance:marketsector:Theme+Park+%2F+Attraction%7C16",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3ATheme%2BPark%2B%252F%2BAttraction%257C16",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Food to Go|17",
+                    "name": "Food to Go",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amarketsector%3AFood%2Bto%2BGo%257C17",
+                        "query": {
+                            "value": ":relevance:marketsector:Food+to+Go%7C17",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amarketsector%3AFood%2Bto%2BGo%257C17",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "allergens",
+            "name": "Allergens",
+            "priority": 2147483638,
+            "category": false,
+            "multiSelect": false,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "All allergens|1",
+                    "name": "All allergens",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AAll%2Ballergens%257C1",
+                        "query": {
+                            "value": ":relevance:allergens:All+allergens%7C1",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AAll%2Ballergens%257C1",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Gluten|2",
+                    "name": "Gluten",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AGluten%257C2",
+                        "query": {
+                            "value": ":relevance:allergens:Gluten%7C2",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AGluten%257C2",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Wheat|3",
+                    "name": "Wheat",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AWheat%257C3",
+                        "query": {
+                            "value": ":relevance:allergens:Wheat%7C3",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AWheat%257C3",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Rye|4",
+                    "name": "Rye",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ARye%257C4",
+                        "query": {
+                            "value": ":relevance:allergens:Rye%7C4",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ARye%257C4",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Barley|5",
+                    "name": "Barley",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ABarley%257C5",
+                        "query": {
+                            "value": ":relevance:allergens:Barley%7C5",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ABarley%257C5",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Oat|6",
+                    "name": "Oat",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AOat%257C6",
+                        "query": {
+                            "value": ":relevance:allergens:Oat%7C6",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AOat%257C6",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Spelt|7",
+                    "name": "Spelt",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ASpelt%257C7",
+                        "query": {
+                            "value": ":relevance:allergens:Spelt%7C7",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ASpelt%257C7",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Kamut|8",
+                    "name": "Kamut",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AKamut%257C8",
+                        "query": {
+                            "value": ":relevance:allergens:Kamut%7C8",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AKamut%257C8",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Crustaceans|9",
+                    "name": "Crustaceans",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ACrustaceans%257C9",
+                        "query": {
+                            "value": ":relevance:allergens:Crustaceans%7C9",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ACrustaceans%257C9",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Egg|10",
+                    "name": "Egg",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AEgg%257C10",
+                        "query": {
+                            "value": ":relevance:allergens:Egg%7C10",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AEgg%257C10",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Fish|11",
+                    "name": "Fish",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AFish%257C11",
+                        "query": {
+                            "value": ":relevance:allergens:Fish%7C11",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AFish%257C11",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Peanuts|12",
+                    "name": "Peanuts",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3APeanuts%257C12",
+                        "query": {
+                            "value": ":relevance:allergens:Peanuts%7C12",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3APeanuts%257C12",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Soya|13",
+                    "name": "Soya",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ASoya%257C13",
+                        "query": {
+                            "value": ":relevance:allergens:Soya%7C13",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ASoya%257C13",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Milk|14",
+                    "name": "Milk",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AMilk%257C14",
+                        "query": {
+                            "value": ":relevance:allergens:Milk%7C14",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AMilk%257C14",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Nuts|15",
+                    "name": "Nuts",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ANuts%257C15",
+                        "query": {
+                            "value": ":relevance:allergens:Nuts%7C15",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ANuts%257C15",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Celery|16",
+                    "name": "Celery",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ACelery%257C16",
+                        "query": {
+                            "value": ":relevance:allergens:Celery%7C16",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ACelery%257C16",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Mustard|17",
+                    "name": "Mustard",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AMustard%257C17",
+                        "query": {
+                            "value": ":relevance:allergens:Mustard%7C17",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AMustard%257C17",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Sesame|18",
+                    "name": "Sesame",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ASesame%257C18",
+                        "query": {
+                            "value": ":relevance:allergens:Sesame%7C18",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ASesame%257C18",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Sulphur dioxide/sulphites|19",
+                    "name": "Sulphur dioxide/sulphites",
+                    "count": 4,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ASulphur%2Bdioxide%252Fsulphites%257C19",
+                        "query": {
+                            "value": ":relevance:allergens:Sulphur+dioxide%2Fsulphites%7C19",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ASulphur%2Bdioxide%252Fsulphites%257C19",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Lupin|20",
+                    "name": "Lupin",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3ALupin%257C20",
+                        "query": {
+                            "value": ":relevance:allergens:Lupin%7C20",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3ALupin%257C20",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "Molluscs|21",
+                    "name": "Molluscs",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aallergens%3AMolluscs%257C21",
+                        "query": {
+                            "value": ":relevance:allergens:Molluscs%7C21",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aallergens%3AMolluscs%257C21",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "productinfo",
+            "name": "Product Info",
+            "priority": 2147483637,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Portion Controlled|5",
+                    "name": "Portion Controlled",
+                    "count": 3,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aproductinfo%3APortion%2BControlled%257C5",
+                        "query": {
+                            "value": ":relevance:productinfo:Portion+Controlled%7C5",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aproductinfo%3APortion%2BControlled%257C5",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "cookingmethod",
+            "name": "Cooking Method",
+            "priority": 2147483636,
+            "category": false,
+            "multiSelect": false,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "No Cooking Required|16",
+                    "name": "No Cooking Required",
+                    "count": 5,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Acookingmethod%3ANo%2BCooking%2BRequired%257C16",
+                        "query": {
+                            "value": ":relevance:cookingmethod:No+Cooking+Required%7C16",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Acookingmethod%3ANo%2BCooking%2BRequired%257C16",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "mealpartoroccassion",
+            "name": "Meal Part or Occasion",
+            "priority": 2147483635,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Breakfast|5",
+                    "name": "Breakfast",
+                    "count": 1,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Amealpartoroccassion%3ABreakfast%257C5",
+                        "query": {
+                            "value": ":relevance:mealpartoroccassion:Breakfast%7C5",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Amealpartoroccassion%3ABreakfast%257C5",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "provenanceandassurance",
+            "name": "Provenance and Assurance",
+            "priority": 2147483633,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "Country Of Origin - British|11",
+                    "name": "Country Of Origin - British",
+                    "count": 2,
+                    "query": {
+                        "url": "/search?q=%3Arelevance%3Aprovenanceandassurance%3ACountry%2BOf%2BOrigin%2B-%2BBritish%257C11",
+                        "query": {
+                            "value": ":relevance:provenanceandassurance:Country+Of+Origin+-+British%7C11",
+                            "filterQueries": [],
+                            "searchQueryContext": null
+                        },
+                        "categoryIndex": false,
+                        "paginationUrl": "/search?q=%3Arelevance%3Aprovenanceandassurance%3ACountry%2BOf%2BOrigin%2B-%2BBritish%257C11",
+                        "productSearch": false,
+                        "productCode": null,
+                        "interactionStudioSearch": false,
+                        "productCodes": null
+                    },
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    "categoryCode": null,
+    "keywordRedirectUrl": null,
+    "spellingSuggestion": null,
+    "suggestions": null,
+    "subCategories": null
+}

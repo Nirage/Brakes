@@ -1,0 +1,43 @@
+<div class="amp-splitblock split--{{splitLayout}}">
+
+    <div class="amp-splitblock__column amp-splitblock__column--media amp-splitblock__column--{{#if (test imageWithLink.alignment (toRegex "left"))}}left{{else}}right{{/if}}">
+        <div class="amp-splitblock__media">
+            {{#if videoType}}
+                {{> video_partial}}
+            {{else}}
+                {{#if imageWithLink}}
+                    {{#if imageWithLink.url}}<a href="{{imageWithLink.url}}" target="{{#if imageWithLink.target}}_blank{{else}}_self{{/if}}" class="flex">{{/if}}
+                    <picture class="amp-card__picture">
+                        <source srcset="https://i1.adis.ws/i/{{imageWithLink.image.endpoint}}/{{imageWithLink.image.name}}?$ca-splitblock-desktop$" media="(min-width: 1240px)">
+                        <source srcset="https://i1.adis.ws/i/{{imageWithLink.image.endpoint}}/{{imageWithLink.image.name}}?$ca-splitblock-tablet$" media="(min-width: 768px)">
+                        <source srcset="https://i1.adis.ws/i/{{imageWithLink.image.endpoint}}/{{imageWithLink.image.name}}?$ca-splitblock-mobile$">
+                        <img class="amp-card__img" src="https://i1.adis.ws/i/{{imageWithLink.image.endpoint}}/{{imageWithLink.image.name}}?$ca-splitblock-desktop$" alt="{{imageWithLink.altText}}" title="{{imageWithLink.altText}}"/>
+                    </picture>
+                    {{#if imageWithLink.url}}</a>{{/if}}
+                {{/if}}
+            {{/if}}
+        </div>
+    </div>
+    
+    <div class="amp-splitblock__column amp-splitblock__column--text amp-splitblock__column--{{#if (test imageWithLink.alignment (toRegex "left"))}}right{{else}}left{{/if}}">
+        <div class="amp-splitblock__text">
+            {{#if heading}}
+                <div class="amp__heading">
+                    <h2 class="amp__heading-text amp__heading-text--align-{{headingAlignment}} amp__heading-underline--color-{{headingUnderlineColour}}">{{heading}}</h2>
+                </div>
+            {{/if}}
+            
+            {{#if bodyText}}
+                <div class="amp-card__bodytext amp-card__bodytext--align-{{bodyTextAlignment}}">
+                    <script class="js-markdownText" type="text/markdown">{{{bodyText}}}</script>
+                </div>
+            {{/if}}
+            
+            {{#if Cta}}
+                <div class="amp-splitblock__position justify-content-{{Cta.position}}">
+                    <a href="{{Cta.linkUrl}}" target="{{#if Cta.linkTarget}}_blank{{else}}_self{{/if}}" class="btn btn-{{Cta.style}}">{{Cta.label}}</a>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="amp-leaderboard {{#if image.name}}has-image{{else}}no-image{{/if}}">
+  {{#if image.name}}
+  <picture class="amp-leaderboard__picture flex position-absolute">
+    <source
+      data-srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{image.name}}?$ca-leader-board-desktop$&fmt=webp"
+      media="(min-width: 1240px)"
+      type="image/webp"
+    />
+    <source
+      data-srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{image.name}}?$ca-leader-board-tablet$&fmt=webp"
+      media="(min-width: 768px)"
+      type="image/webp"
+    />
+    <source data-srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{image.name}}?$ca-leader-board-mobile$&fmt=webp" />
+    <img
+      class="amp-leaderboard__img lazyload"
+      data-sizes="auto"
+      data-src="https://i1.adis.ws/i/{{image.endpoint}}/{{image.name}}?$ca-leader-board-desktop$"
+      alt="{{imageAltText}}"
+      title="{{imageAltText}}"
+    />
+    <span class="loader__image"></span>
+  </picture>
+  {{/if}}
+  {{#if ctaText}}
+  <a
+    href="{{ctaLink}}"
+    class="amp-leaderboard__btn btn btn-{{ctaType}} {{#if ctaAlignment}}amp-leaderboard__btn-align--{{ctaAlignment}}{{/if}} {{#if ctaBackgroundColour}}cta-background--{{ctaBackgroundColour}}{{/if}} {{#if ctaForegroundColour}} cta-foreground--{{ctaForegroundColour}}{{/if}}"
+  >
+    {{#if (test ctaType (toRegex "download"))}}
+    <div class="btn__text-wrapper">
+      <span class="btn__icon icon icon-download"></span>
+      <span class="btn__text">{{ctaText}}</span>
+    </div>
+    {{else}} {{ctaText}} {{/if}}
+  </a>
+  {{/if}}
+</div>

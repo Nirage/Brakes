@@ -1,0 +1,56 @@
+.cookie {
+  &__wrapper {
+    background-color: @brand-gray;
+    padding: 25px 0px;
+  }
+  &__text {
+    color: @brand-white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 15px;
+    .font-primary;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 0px;
+    }
+  }
+  &__btn-wrapper {
+    text-align: center;
+    margin-top: 10px;
+    @media (min-width: @screen-sm-min) {
+      text-align: right;
+    }
+    @media (min-width: @screen-md-min) {
+      margin-top: 0px;
+    }
+  }
+  &__btn {
+    max-width: 183px;
+    border: 1px solid @brand-gray-medium;
+    border-radius: 4px;
+    background-color: @brand-white;
+    color: @brand-gray-dark;
+    &:hover,
+    &:active,
+    &:focus {
+      color: @brand-gray-dark !important;
+      background-color: @brand-gray-medium !important;
+      border: 1px solid @brand-gray-medium !important;
+    }
+  }
+  &__btn-icon {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  &__text-link {
+    color: @brand-white;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+}
+
+.sticky-cookie {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}

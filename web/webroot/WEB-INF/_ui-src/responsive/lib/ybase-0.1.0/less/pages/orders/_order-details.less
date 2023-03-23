@@ -1,0 +1,17 @@
+.order-details {
+  &__section {
+    border: 1px solid @border-color;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  &__quick-add {
+    padding: 15px 20px;
+    border-bottom: 1px solid @border-color;
+
+    @media (min-width: @screen-sm-min) {
+      padding-bottom: 20px;
+    }
+  }
+}

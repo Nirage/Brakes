@@ -1,0 +1,315 @@
+@__account-dropdown-padding: 18px;
+
+.account-dropdown {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  &--right {
+    @media (max-width: @screen-xs-max) {
+      max-width: 35%;
+    }
+  }
+  &--left {
+    @media (max-width: @screen-xs-max) {
+      max-width: 65%;
+    }
+  }
+  &__trigger {
+    color: @brand-white;
+    line-height: 26px;
+    font-size: 12px;
+    padding: 4px 35px 4px 10px;
+    position: relative;
+    max-width: 100%;
+    max-height: 36px;
+    white-space: nowrap;
+    border-bottom: solid 1px transparent;
+    @media (max-width: @screen-xs-max) {
+      outline: none;
+    }
+    // iPad Pro and Newer specific fix
+    @media only screen and (min-device-width: 769px) and (-webkit-min-device-pixel-ratio: 2) {
+      outline: none;
+    }
+    &--delivery-calendar {
+      display: none;
+      margin-right: -@grid-gutter-width / 2;
+      padding-right: 45px;
+
+      @media @tablet {
+        .flex;
+      }
+    }
+
+    .icon {
+      margin-right: 10px;
+      float: left;
+    }
+    &.is-active {
+      background: @brand-white;
+      color: @brand-gray;
+      border-bottom: solid 1px #fff;
+      &:before {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+      .icon-user-login {
+        background-color: @brand-white;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        &:before {
+          color: @brand-gray;
+        }
+      }
+    }
+
+    &:before {
+      &:extend(.icon all);
+      content: @icon-chevron-down;
+      display: block;
+      width: @__account-dropdown-padding;
+      height: @__account-dropdown-padding;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: @__account-dropdown-padding;
+    }
+  }
+  &--user-details {
+    @media (max-width: @screen-xs-max) {
+      width: 64%;
+      float: left;
+      .icon-user-login {
+        margin-left: 5px;
+      }
+      .account-dropdown__user-name {
+        text-align: left;
+      }
+    }
+  }
+  &__content {
+    top: 0;
+    @media (min-width: @screen-sm-min) {
+      top: 40px;
+    }
+    position: absolute;
+    background-color: @brand-white;
+    padding: @__account-dropdown-padding @__account-dropdown-padding 0;
+    z-index: 100;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    min-width: 315px;
+    width: 100%;
+    &--account {
+      right: 0;
+    }
+    &--accountRight {
+      left: 0;
+    }
+    &--deliverycalendar {
+      cursor: default;
+      right: 0;
+      .delivery-date__description {
+        white-space: normal;
+      }
+    }
+    @media (max-width: @screen-xs-max) {
+      position: fixed;
+    }
+  }
+  &__section {
+    border-top: 1px solid @brand-gray-medium;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+    &--no-border-bottom {
+      border-bottom: none;
+    }
+    &--no-border-top {
+      border-top: none;
+    }
+    &:first-of-type {
+      padding-top: 10px;
+    }
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+  &__salutation {
+    .font-primary;
+    font-size: 18px;
+    margin: 0 0 10px;
+    overflow-wrap: break-word;
+  }
+
+  &__section-header {
+    .font-primary-bold;
+    font-size: @__account-dropdown-padding;
+    margin: 0;
+    a {
+      color: @text-color;
+    }
+  }
+  &__account-id {
+    display: block;
+    .font-primary-bold;
+    font-size: @__account-dropdown-padding;
+  }
+  &__businessname {
+    display: block;
+    font-size: 12px;
+  }
+  &__section-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  &__section-list-item {
+    margin-bottom: 15px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__views {
+    overflow: hidden;
+    width: 100%;
+    color: @brand-gray-dark;
+    .btn {
+      color: @brand-gray-dark!important;
+    }
+    .icon {
+      color: @brand-gray-dark;
+      .mobile-nav & {
+        color: @brand-gray-dark;
+      }
+    }
+  }
+  &__view {
+    display: inline-block;
+    z-index: 10;
+    width: 100%;
+    display: none;
+    &--normal {
+      &.is-visible {
+        display: block;
+      }
+    }
+    &--switch-account {
+      &.is-visible {
+        display: block;
+      }
+    }
+  }
+  &__calendar-heading {
+    .font-primary-bold;
+    line-height: 1;
+    font-size: 18px;
+  }
+  &__user-name {
+    overflow: hidden;
+    max-height: 25px;
+    display: block;
+  }
+  &__calendar {
+    margin: 20px 0;
+  }
+  &__calendar-top {
+    border-bottom: 1px solid @brand-gray-medium;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  &__calendar-middle {
+    margin: 20px 0;
+    border-bottom: 1px solid @brand-gray-medium;
+  }
+  &__calendar-heading-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &__calendar-heading-icon {
+    float: left;
+    margin-right: 10px;
+  }
+}
+.calendar-legend {
+  list-style: none;
+  padding: 0;
+  &__item {
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+  }
+  &__item:last-child {
+    margin-bottom: 20px;
+  }
+  &__item-text {
+    line-height: 30px;
+  }
+  &__item-symbol {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    &--bankholiday {
+      position: relative;
+      border-color: @brand-gray-medium;
+      background: @brand-white;
+      background: repeating-linear-gradient(30deg, @brand-white, @brand-white 5px, @brand-gray-medium 6px, @brand-gray-medium 5px);
+      z-index: 1;
+      color: @brand-gray-dark;
+      &:after {
+        position: absolute;
+        content: '';
+        background-color: @brand-white;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        z-index: -1;
+        top: 7px;
+        left: 7px;
+      }
+    }
+    &--available {
+      background-color: @brand-white;
+      border-color: @brand-gray-medium;
+    }
+    &--next-available {
+      background-color: @brand-primary;
+      border-color: @brand-primary;
+    }
+    &--notavailable {
+      background-color: @brand-gray-medium;
+      border-color: @brand-gray-medium;
+    }
+  }
+}
+
+.delivery-date {
+  &__form {
+    margin: 20px 0;
+  }
+  &__heading {
+    font-size: 30px;
+  }
+  &__selected {
+    margin-bottom: 10px;
+  }
+  &__selected-date {
+    padding: 3px 5px;
+    background-color: @brand-gray-light;
+    font-size: 12px;
+  }
+  &__deadline {
+    font-size: 12px;
+    text-transform: uppercase;
+    &.highlighted {
+      color: @brand-warning;
+    }
+  }
+}

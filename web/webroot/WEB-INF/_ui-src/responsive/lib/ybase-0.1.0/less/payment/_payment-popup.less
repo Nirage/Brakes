@@ -1,0 +1,42 @@
+.popUpBox{
+    box-sizing: border-box;
+    border: 0.25px solid @disclaimer-border-color;
+    border-radius: 4px;
+    background-color: @white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    padding: 24px 12px;
+    position: absolute;
+    bottom: 25px;
+    width: 90%;
+    &__heading {          
+        color: @brand-gray-dark;
+        .font-primary;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 26px;
+        &:after {
+            content: "";
+            width: 71px;
+            height: 5px;
+            display: block;
+            margin-top: 10px;
+            background: @brand-primary;
+            margin-bottom: 20px;
+        }
+    } 
+    &__close {
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        -webkit-appearance: none;
+        float: right;
+    }
+    &__text {
+        color: @brand-black;
+        .font-primary;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+
+}

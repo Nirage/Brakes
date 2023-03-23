@@ -1,0 +1,20 @@
+<div class="amp-text">
+    {{#if html}}
+        <div class="amp-text__html">
+         {{{ html }}}
+        </div>
+    {{else}}
+
+        {{#if heading}}
+            {{#if headingSize}}
+            <div class="amp__heading">
+                <{{headingSize}} class="amp__heading-text amp__heading-text--align-{{headingAlignment}} amp__heading-underline--color-{{headingUnderlineColour}}">{{heading}}</{{headingSize}}>
+            </div>
+            {{/if}}
+        {{/if}}
+    
+        {{#if body}}
+            <div class="amp-text__body amp-text__body--align-{{bodyAlignment}} amp-text__body--columns-{{bodyColumns}}">{{body}}</div>
+        {{/if}}
+    {{/if}}
+</div>

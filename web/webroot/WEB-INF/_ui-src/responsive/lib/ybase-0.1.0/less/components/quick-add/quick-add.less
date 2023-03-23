@@ -1,0 +1,78 @@
+.quick-add {
+  &--mobile {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+  }
+  &__seperator {
+    margin: 0 0;
+    border-bottom: 1px solid @brand-gray-medium;
+  }
+  &__header {
+    font-size: 16px;
+    .font-primary-bold;
+    margin-bottom: 5px;
+    .icon {
+      margin-right: 5px;
+      font-size: 16px;
+    }
+  }
+  &__inputs-group {
+    width: 70%;
+    float: left;
+    &--wishlist {
+      width: calc(~"100% - 50px");
+    }
+  }
+  &__btn-group {
+    width: 30%;
+    float: left;
+    &--wishlist {
+      width: auto;
+    }
+  }
+  &__input {
+    float: left;
+    .form-control;
+    &::-moz-placeholder {
+      font-style: italic;
+    }
+    &:-ms-input-placeholder { 
+      font-style: italic;
+    } // Internet Explorer 10+
+    &::-webkit-input-placeholder  {  
+      font-style: italic;
+    } // Safari and Chrome
+    &.has-error {
+      border: 1px solid @brand-warning;
+      color: @brand-warning;
+    }
+    &--large {
+      width: 75%;
+      border-radius: 4px 0 0 4px;
+    }
+    &--small {
+      width: 25%;
+      border-radius: 0 0 0 0;
+      border-left: none;
+    }
+    &--single {
+      border-radius: 4px 0 0 4px;
+    }
+  }
+  &__button {
+    border-radius: 0 4px 4px 0;
+    font-size: 19px;
+    line-height: 1;
+    &--symbol {
+      width: auto;
+      padding: 9px 10px;
+    }
+  }
+  &__error {
+    color: @brand-warning;
+    display: inline-block;
+    margin-top: 5px;
+    width: 100%;
+  }
+}

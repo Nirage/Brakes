@@ -1,0 +1,48 @@
+.media-component {
+  display: none;
+  @media (min-width: @screen-sm-min) {
+    display: block;
+  }
+  @media (min-width: @screen-md-min) {
+    width: 400px;
+    float: right;
+  }
+  &__caption {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 20px;
+    clear: both;
+  }
+  &__picture-img {
+    border-radius: 4px;
+  }
+  &__media {
+    display: none;
+    width: 95%;
+    @media (min-width: @screen-sm-min) {
+      display: inline-block;
+    }
+    @media (min-width: @screen-md-min) {
+      width: 390px;
+    }
+    &--shadow {
+      box-shadow: 10px 10px 0px 2px @brand-primary;
+    }
+
+    border-radius: 4px;
+    .embed-responsive {
+      border-radius: 4px;
+    }
+  }
+  &__html {
+    a {
+      text-decoration: underline;
+    }
+  }
+  .text-highlight {
+    color: @brand-primary;
+    font-size: 46px;
+    .font-primary-bold;
+    margin-right: 10px;
+  }
+}

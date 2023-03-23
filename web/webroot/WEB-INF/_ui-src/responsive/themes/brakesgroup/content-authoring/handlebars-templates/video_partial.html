@@ -1,0 +1,17 @@
+<div class="amp-video amp-video-partial">
+  {{#if (test videoType (toRegex "youtube"))}}
+  <iframe src="https://www.youtube.com/embed/{{ videoId }}?autoplay={{#if (test autoplay (toRegex 'true'))}}1{{else}}0{{/if}}&controls={{#if (test playerControls (toRegex 'show'))}}1{{else}}0{{/if}}&fs=1&mute={{#if (test unmute (toRegex 'true'))}}0{{else}}1{{/if}}&fs={{#if (test fs (toRegex 'true'))}}1{{else}}0{{/if}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {{/if}}
+
+  {{#if (test videoType (toRegex "vimeo"))}}
+  <iframe src="https://player.vimeo.com/video/{{ videoId }}?autoplay=1&loop=1&autopause=0&mute={{#if (test unmute (toRegex 'true'))}}0{{else}}1{{/if}}" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  {{/if}}
+
+  {{#if (test videoType (toRegex "facebook"))}}
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F{{ videoId }}%2F&show_text=false&appId&autoplay={{#if (test autoplay (toRegex 'true'))}}true{{else}}false{{/if}}&allowfullscreen={{#if (test fs (toRegex 'true'))}}true{{else}}false{{/if}}" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+  {{/if}}
+
+  {{#if (test videoType (toRegex "amplience"))}}
+  <iframe src="{{ videoId }}?protocol=https" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  {{/if}}
+</div>

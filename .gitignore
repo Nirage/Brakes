@@ -1,0 +1,18 @@
+# Ignore Mac OS X Finder specific files
+.DS_Store
+
+# Ignore everything in generated responsive directory
+**/web/webroot/_ui/responsive/*
+**/web/webroot/_ui/desktop/*
+**/web/webroot/_ui/mobile/*
+
+#ignore the cockpit extension generated files
+**/*storefront/web/webroot/cockpit/*
+
+.idea
+.springBeans*
+*.css.map
+node_modules
+
+# FE related changes
+core-customize/hybris/bin/custom/brakes/brakesstorefront/package-lock.json

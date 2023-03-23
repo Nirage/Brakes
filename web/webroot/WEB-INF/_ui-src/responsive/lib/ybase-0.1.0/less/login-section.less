@@ -1,0 +1,109 @@
+.accountcustomerlogin {
+  background-size: cover;
+}
+.login {
+  float: none;
+  @media (min-width: @screen-md-min) {
+    padding: 120px 0;
+    max-width: @screenMd - @grid-gutter-width;
+    margin: 0 auto;
+    width: 100%;
+  }
+  padding: 40px 0px;
+  width: 100%;
+  &__devider {
+    &--text {
+      text-transform: uppercase;
+      color: @brand-gray;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      display: block;
+      background: @brand-white;
+      margin: 0px auto;
+      width: 50px;
+      margin-top: -21px;
+      padding: 10px;
+      @media (min-width: @screen-sm-min) {
+        display: none;
+      }
+    }
+    &--textdesktop {
+      text-transform: uppercase;
+      color: @brand-gray;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 22px;
+      position: absolute;
+      top: 48%;
+      right: -23px;
+      background-color: @brand-white;
+      padding: 10px;
+      display: none;
+      @media (min-width: @screen-sm-min) {
+        display: block;
+      }
+    }
+  }
+  &__wrapper {
+    float: left;
+    width: 100%;
+    background-color: @brand-white;
+    border-radius: 4px;
+    padding: 20px;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 120px;
+    }
+    &--signin {
+      @media (min-width: @screen-sm-min) {
+        border-right: 1px solid @brand-gray-medium;
+        border-bottom: none;
+      }
+      border-bottom: 1px solid @brand-gray-medium;
+      border-right: none;
+    }
+  }
+  &__form {
+    &--button {
+      display: block;
+      background-color: @brand-primary;
+      border-radius: 4px !important;
+      margin-top: 28px;
+      margin-bottom: 52px;
+      width: 100%;
+      text-transform: none;
+      float: left;
+      .submit-icon {
+        padding-right: 8px;
+      }
+    }
+  }
+  .form-group {
+    margin-bottom: 0px;
+  }
+  &__radio:not(:last-child) {
+    margin-bottom: 22px;
+    font-size: 16px;
+  }
+}
+
+.spinning-div {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: @brand-white;
+  z-index: 9999;
+  text-align: center;
+  display: none;
+}
+
+.spinning-image {
+  position: absolute;
+  top: calc(~"50% - 75px/2");
+  left: calc(~"50% - 75px/2");
+  z-index: 100;
+}

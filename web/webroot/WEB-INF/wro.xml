@@ -1,0 +1,31 @@
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2018 SAP SE or an SAP affiliate company.  All rights reserved.
+
+ This software is the confidential and proprietary information of SAP
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with SAP.
+-->
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+	<import>classpath:wro_addons.xml</import>
+	
+	<group name="brakes_styles">
+		<css>/_ui/responsive/theme-brakes/css/style.css</css>
+	</group>
+    
+	<group name="countrychoice_styles">
+		<css>/_ui/responsive/theme-countrychoice/css/style.css</css>
+	</group>
+
+	<group name="brakes-group.min">
+		<js minimize="false">/_ui/responsive/common/js/enquire.min.js</js>
+		<js minimize="false">/_ui/responsive/common/js/handlebars.min.js</js>
+		<js>/_ui/responsive/common/js/handlebarsHelpers.js</js>
+		<js minimize="false">/_ui/responsive/common/js/jquery-ui-1.12.1.custom.min.js</js>
+		<!-- Cms Action JavaScript files -->
+		<js>/_ui/responsive/common/js/cms/*.js</js>
+  </group>   
+</groups>       

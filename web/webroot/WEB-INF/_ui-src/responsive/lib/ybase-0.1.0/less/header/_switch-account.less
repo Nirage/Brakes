@@ -1,0 +1,24 @@
+.switch-account {
+  &__search {
+    margin-top: 20px;
+  }
+  &__list-divider {
+    margin: 20px -@__account-dropdown-padding;
+    height: 1px;
+    background-color: @brand-gray-medium;
+  }
+  &__list-wrapper {
+    position: relative;
+    overflow-y: auto;
+  }
+  &__list {
+    background: @brand-white;
+    z-index: 1;
+  }
+  &__no-results {
+    display: none;
+    top: 0;
+    left: 15px;
+    z-index: -1;
+  }
+}

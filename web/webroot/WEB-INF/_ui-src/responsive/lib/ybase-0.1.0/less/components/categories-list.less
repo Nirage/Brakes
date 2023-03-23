@@ -1,0 +1,21 @@
+.categories {
+  &-list {
+    padding-left: 0;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    & > [class*='col-'] {
+      display: flex;
+    }
+
+    @media @tablet {
+      &__item.col-sm-4 {
+        max-width: calc(33.3333% - 20px);
+      }
+    }
+  }
+}

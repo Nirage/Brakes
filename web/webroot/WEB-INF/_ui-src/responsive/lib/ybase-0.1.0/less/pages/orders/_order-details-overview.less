@@ -1,0 +1,84 @@
+.order-details-overview {
+  &__header {
+    background: @brand-gray-light;
+    font-size: 16px;
+    padding: 14px 10px;
+
+    @media (min-width: @screen-sm-min) {
+      padding: 14px 20px;
+    }
+  }
+
+  &__summary {
+    padding: 17px 10px 0;
+
+    @media (min-width: @screen-sm-min) {
+      padding: 17px 20px 0;
+    }
+  }
+
+  &__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  &__actions {
+    padding: 15px 10px 5px;
+    border-top: 1px solid @border-color;
+
+    @media (min-width: @screen-sm-min) {
+      padding: 20px;
+    }
+  }
+
+  &__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 0;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  &__value {
+    .font-primary-bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 35px;
+    }
+  }
+  &__value--noSpace {
+    .font-primary-bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .order-status {
+    &::before {
+      display: none;
+    }
+  }
+}

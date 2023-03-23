@@ -1,0 +1,58 @@
+// Based on Style Guide - Brakes 06.Typography
+
+.heading {
+  &--1 {
+    // Page title, heading, product title on desktop. Should be used only once per page
+    .font-primary-bold;
+    font-size: 32px;
+  }
+  &--2 {
+    // Page title, heading, product title on mobile
+    .font-primary;
+    font-size: 24px;
+  }
+  &--3 {
+    // Content block titles, e.g. PLP Filter panel
+    .font-primary-bold;
+    font-size: 18px;
+  }
+  &--4 {
+    // Paragraph title / heading within block of text, product title or SKU
+    .font-primary;
+    font-size: 18px;
+  }
+  &--5 {
+    // Alternative to Heading 4
+    .font-primary;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
+
+.text {
+  // Any copy throughout page
+  .font-primary;
+  font-size: 16px;
+}
+
+.label,
+.label-text {
+  // Icon label, timestamp
+  .font-primary;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.subtext {
+  // Tooltips, error text, or subordinate navigational links or messaging
+  .font-primary;
+  font-size: 12px;
+}
+
+.text-bold {
+  .font-primary-bold;
+}
+
+.text-white {
+  color: @brand-white!important;
+}

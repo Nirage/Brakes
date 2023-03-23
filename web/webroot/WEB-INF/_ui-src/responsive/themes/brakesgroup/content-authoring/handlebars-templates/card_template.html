@@ -1,0 +1,43 @@
+<div class="amp-card">
+  {{#if ctaLink}}
+  <a href="{{ctaLink}}">
+    {{/if}}
+    <picture class="amp-card__picture">
+      <source srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{encodeURI image.name}}?$ca-card-desktop$" media="(min-width: 1240px)" />
+      <source srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{encodeURI image.name}}?$ca-card-tablet$" media="(min-width: 768px)" />
+      <source srcset="https://i1.adis.ws/i/{{image.endpoint}}/{{encodeURI image.name}}?$ca-card-mobile$" />
+      <img
+        class="amp-card__img"
+        src="https://i1.adis.ws/i/{{image.endpoint}}/{{encodeURI image.name}}?$ca-card-desktop$"
+        alt="{{imageAltText}}"
+        title="{{imageAltText}}"
+      />
+    </picture>
+    {{#if ctaLink}}
+  </a>
+  {{/if}} 
+  {{#or heading bodyText ctaText}}
+  <div class="amp-card__content">
+    {{#if heading}}
+    <div class="amp__heading">
+      <h2 class="amp__heading-text amp__heading-text--align-{{headingAlignment}} amp__heading-underline--color-{{headingUnderlineColour}}">
+        {{heading}}
+      </h2>
+    </div>
+    {{/if}}
+    <div class="amp-card__bodytext amp-card__bodytext--align-{{bodyTextAlignment}}">
+      <script class="js-markdownText" type="text/markdown">
+        {{{bodyText}}}
+      </script>
+    </div>
+    {{#if ctaLink}}
+    <a
+      href="{{ctaLink}}"
+      class="amp-card__cta {{#if ctaType}}amp-card__cta--type-{{ctaType}}{{else}}amp-card__cta--type-link{{/if}}"
+      title="{{ctaText}}"
+      >{{ctaText}}</a
+    >
+    {{/if}}
+  </div>
+  {{/or}}
+</div>

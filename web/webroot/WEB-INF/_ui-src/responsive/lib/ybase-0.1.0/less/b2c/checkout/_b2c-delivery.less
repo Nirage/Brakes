@@ -1,0 +1,195 @@
+.b2c-checkout-delivery {
+  &__popup {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    max-height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow-y: scroll;
+    background: @white;
+    @media screen and (min-width: @screen-sm-min) {
+      max-width: 380px;
+      margin-top: 50px;
+      max-height: ~"calc(100% - 50px)";
+    }
+    @media screen and (min-width: @screen-md-min) {
+      max-width: 340px;
+      width: 100%;
+      margin-top: 90px;
+      max-height: ~"calc(100% - 90px)";
+    }
+    &--overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+    }
+  }
+  &__title {
+    font-size: 24px;
+    line-height: 26px;
+    .font-primary-bold;
+    padding: 20px 30px 10px 30px;
+  }
+  &__progress-bar {
+    width: ~"calc(100% - 60px)";
+    height: 5px;
+    margin: 20px 30px;
+    background-color: @brand-gray-medium;
+    &--inner {
+      width: 25%;
+      background: @brand-primary;
+      height: 5px;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+    }
+  }
+  &__steps {
+    margin: 20px 30px;
+  }
+  &__email-field {
+    width: 100%;
+    height: 40px;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: 1px solid @brand-gray-medium;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.65;
+    background: @brand-gray-medium;
+  }
+  &__radio-button {
+    &--wrapper {
+      text-align: right;
+    }
+  }
+  &__slide-distance {
+    float: right;
+  }
+  &__slider {
+    width: 100%;
+    height: 2px;
+    background: @brand-gray-medium;
+    outline: none;
+    opacity: 0.7;
+    -webkit-appearance: none;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 1;
+    }
+    &::-webkit-slider-thumb {
+      width: 5px;
+      height: 20px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: @brand-primary;
+      cursor: pointer;
+    }
+    &::-moz-range-thumb {
+      width: 5px;
+      height: 20px;
+      background: @brand-primary;
+      cursor: pointer;
+    }
+  }
+  &__checkbox-container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    padding-right: 30px;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: right;
+    cursor: pointer;
+  }
+  &__checkbox-field {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+    &:checked ~ .b2c-checkout-delivery__checkbox-label:after {
+      display: block;
+    }
+  }
+  &__checkbox-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 19px;
+    height: 19px;
+    border: 1px solid @brand-gray;
+    background-color: @white;
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      left: 6px;
+      top: 2px;
+      width: 6px;
+      height: 11px;
+      border: solid @brand-primary;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+  &__navigation-wrapper {
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+    background: @brand-gray-light;
+  }
+  &__navigation-step {
+    float: left;
+    width: 100%;
+    text-align: center;
+    &--label {
+      display: inline-block;
+      padding: 5px 20px 5px 0px;
+      font-size: 16px;
+      text-align: left;
+    }
+    &--back {
+      width: 40px;
+      min-width: 40px;
+      height: 45px;
+      margin-right: 5px;
+      padding: 8px 5px;
+    }
+    &--back-icon {
+      font-size: 16px;
+      vertical-align: middle;
+    }
+    &--next {
+      width: 100px;
+      height: 45px;
+    }
+    &--next-icon {
+      font-size: 16px;
+      vertical-align: middle;
+    }
+  }
+  &__label {
+    &--mandatory-fields {
+      float: left;
+      width: 100%;
+      margin: 10px auto 0px auto;
+      text-align: center;
+    }
+  }
+}

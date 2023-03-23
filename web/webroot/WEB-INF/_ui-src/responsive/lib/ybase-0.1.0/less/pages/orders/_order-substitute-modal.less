@@ -1,0 +1,18 @@
+.order-substitute-modal {
+  &__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  &__reject-btn {
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    margin-right: 20px;
+  }
+  &__accept-btn {
+    @media (min-width: @screen-sm-min) {
+      width: 140px;
+    }
+  }
+}

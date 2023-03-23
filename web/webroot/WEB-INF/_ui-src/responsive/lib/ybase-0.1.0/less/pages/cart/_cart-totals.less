@@ -1,0 +1,135 @@
+.cart-totals {
+  margin: 0 -5px;
+  padding: 5px 5px 0px;
+  overflow: hidden;
+
+  @media @mobile {
+    &__order-buttons {
+      order: 1;
+    }
+  }
+
+  @media @tablet {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-left: -@grid-gutter-width;
+    padding: 0 0 5px 0;
+  }
+
+  &__inner {
+    border: 1px solid @brand-gray-medium;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 0 0;
+    @media (min-width: @screen-sm-min) {
+      background: #fff;
+      border-bottom: 1px;
+      border-left: 0;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  &__header {
+    height: 50px;
+    background: @brand-white;
+    margin: 0 20px;
+    border-bottom: 1px solid @brand-gray-medium;
+    @media (min-width: @screen-sm-min) {
+      margin: 0;
+      border-bottom: 0;
+      background: @brand-gray-light;
+    }
+  }
+
+  &__header-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+
+    @media (min-width: @screen-sm-min) {
+      padding-left: 20px;
+    }
+  }
+  &__body {
+    background: @brand-white;
+    padding: 20px;
+
+    @media (min-width: @screen-sm-min) {
+      padding-bottom: 30px;
+    }
+
+    hr {
+      border-top: 1px solid @brand-gray-medium;
+    }
+  }
+  &__body-text {
+    font-size: 16px;
+    &--bold {
+      .font-primary-bold;
+    }
+    &--underline {
+      text-decoration: underline;
+    }
+    &--font12 {
+      font-size: 12px;
+    }
+    &--basket-icon {
+      vertical-align: super;
+      padding-right: 11px;
+      font-size: 25px;
+    }
+    &--inline-element {
+      display: inline-block;
+    }
+  }
+
+  &__edit-icon {
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  &__header-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 50px;
+  }
+
+  &__prices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  &__total-price {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  &__guide {
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+      display: block;
+    }
+    .font-primary;
+  }
+  &__minimum-order {
+    padding-left: 36px;
+    height: 20px;
+    color: @brand-gray;
+  }
+  &__maximum-order {
+    padding-left: 36px;
+    color: @brand-gray;
+  }
+
+  &__vat {
+    .font-primary-bold;
+    line-height: 1.9;
+
+    @media (min-width: @screen-sm-min) {
+      float: left;
+    }
+  }
+}

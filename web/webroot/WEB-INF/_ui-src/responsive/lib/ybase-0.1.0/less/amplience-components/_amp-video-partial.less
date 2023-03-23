@@ -1,0 +1,15 @@
+.amp-video {
+  iframe {
+    width: 100%;
+  }
+
+  &--white-desktop {
+    @media @tablet {
+      padding: 10px;
+      background-color: @brand-white;
+    }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      max-height: 460px; // flex for IE on this element causes abnormal height
+    }
+  }
+}

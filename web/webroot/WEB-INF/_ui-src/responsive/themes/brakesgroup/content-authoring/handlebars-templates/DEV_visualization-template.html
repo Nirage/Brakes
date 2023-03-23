@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" media="all" href="https://c1.adis.ws/c/Brakes/brakes-style?22.09.06.04"/>
+
+<script type="text/javascript" src="https://c1.adis.ws/c/Brakes/jquery-3.2.1.min"></script>
+<script type="text/javascript" src="https://c1.adis.ws/c/Brakes/owl.carousel-2.2.1"></script>
+<script type="text/javascript" src="https://c1.adis.ws/c/Brakes/showdown.min"></script>
+
+<div class="container">
+{{#if (test this.[@type] (toRegex ".*/accelerator-image")) }} {{> image_template}}{{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-text")) }} {{> text_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-leaderboardbanner")) }} {{> leaderboardbanner_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-herobanner")) }} {{> herobanner_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-card.json")) }} {{> card_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-card-list")) }} {{> cardlist_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-splitblock")) }} {{> splitblock_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-video")) }} {{> video_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-accordion-tab")) }} {{> accordion-tab_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-accordion")) }} {{> accordion_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-slider-item")) }} {{> slider-item_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/accelerator-slider")) }} {{> slider_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/sidebarcomponent")) }} {{> sidebar_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/splitblock")) }} {{> splitblock_template_internal }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/card-list")) }} {{> cardlist_template_internal }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/how-to-card")) }} {{> how_to_card }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/how-to-slot")) }} {{> how_to_slot }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/DEV_hero-banner")) }} {{> DEV_herobanner_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/DEV_slider")) }} {{> DEV_slider_template }} {{/if}}
+{{#if (test this.[@type] (toRegex ".*/DEV_splitblock")) }} {{> DEV_splitblock_template_internal}}{{/if}}
+</div>
+
+<script>
+    $(function() {
+        if (window.showdown != "undefined") {
+            // replace markdown text
+            $(".js-markdownText").after(function() {
+                $(this).removeClass("js-markdownText");
+                var converter = new window.showdown.Converter();
+                converter.setFlavor("github");
+                return converter.makeHtml(this.textContent);
+            });
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://c1.adis.ws/c/Brakes/base.bundle"></script>

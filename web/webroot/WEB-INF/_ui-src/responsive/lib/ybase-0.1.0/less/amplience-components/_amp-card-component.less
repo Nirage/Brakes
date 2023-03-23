@@ -1,0 +1,57 @@
+.amp-card {
+  border-radius: 4px;
+  background-color: @brand-white;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  float: left;
+  margin-bottom: 20px;
+  border: 1px solid @brand-gray-medium;
+  width: 100%;
+
+  &__img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%; // fix for IE11
+  }
+  
+  &__content {
+    padding: 30px 20px;
+  }
+  &__bodytext {
+    margin-bottom: 24px;
+    font-size: 16px;
+    &--align-left {
+      text-align: left;
+    }
+    &--align-center {
+      text-align: center;
+    }
+    &--align-right {
+      text-align: right;
+    }
+  }
+  &__cta {
+    &--type-link {
+      text-decoration: underline;
+    }
+    &--type-primary,
+    &--type-secondary {
+      .btn;
+      max-width: 100% !important;
+      width: auto !important;
+      padding-left: 30px;
+      padding-right: 30px;
+      white-space: pre-line;
+    }
+    &--type-primary {
+      .btn-primary;
+    }
+    &--type-secondary {
+      .btn-secondary;
+    }
+  }
+
+  .lazyload,
+  .lazyloading {
+    aspect-ratio: 4/3;
+  }
+}

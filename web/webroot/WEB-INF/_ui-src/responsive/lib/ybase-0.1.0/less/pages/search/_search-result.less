@@ -1,0 +1,33 @@
+.search-result {
+  margin-bottom: 40px;
+
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: @brand-gray-dark;
+    margin-bottom: 24px;
+    @media (max-width: @screen-xs-max) {
+      line-height: 50px;
+      margin-bottom: 0px;
+    }
+  }
+  &__term {
+    font-family: @font-primary-bold;
+  }
+  &__sugg-text {
+    font-size: 16px;
+    font-family: @font-primary;
+    margin-bottom: 12px;
+    @media (max-width: @screen-sm-max) {
+      font-size: 16px;
+    }
+  }
+  &__sugg-link {
+    font-size: 16px;
+    font-family: @font-primary-bold;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    padding-left: 14px;
+    color: @brand-gray-dark;
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json",
+  "title": "Text Accelerator",
+  "description": "Text Accelerator",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["heading","headingSize","headingAlignment","headingColour","body","bodyAlignment","bodyColumns","html"],
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string",
+      "title": "Heading Text",
+      "description": "",
+      "format": "text"
+    },
+    "headingSize": {
+      "type": "string",
+      "enum": ["h1", "h2", "h3", "h4", "h5"],
+      "title": "Heading size",
+      "description": ""
+    },
+    "headingAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Heading horizontal alignment",
+      "description": ""
+    },
+    "headingColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "Heading colour",
+      "description": ""
+    },
+    "body": {
+      "type": "string",
+      "title": "Body Text",
+      "description": "",
+      "format": "text"
+    },
+    "bodyAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Body horizontal alignment",
+      "description": ""
+    },
+    "bodyColumns": {
+      "type": "string",
+      "enum": ["1", "2"],
+      "title": "Body columns",
+      "description": ""
+    },
+    "html": {
+      "type": "string",
+      "title": "HTML Text",
+      "format": "text",
+      "description": ""
+    }
+  }
+}
+

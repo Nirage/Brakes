@@ -1,0 +1,34 @@
+.switch-baskets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  .font-primary;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  pointer-events: none;
+
+  &__left {
+    position: relative;
+  }
+  &__total {
+    width: 20px;
+    height: 20px;
+    border: 1px solid @brand-gray-medium;
+    border-radius: 50%;
+    position: absolute;
+    .font-primary-bold;
+    font-size: 12px;
+    background: @brand-white;
+    text-align: center;
+    line-height: 1.5;
+    right: -13px;
+    top: -3px;
+  }
+}

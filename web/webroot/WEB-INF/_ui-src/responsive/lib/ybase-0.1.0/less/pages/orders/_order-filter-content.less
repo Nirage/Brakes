@@ -1,0 +1,38 @@
+.order-filter-content {
+  position: absolute;
+  top: 0;
+  background: @brand-white;
+  width: 100%;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.75;
+  border: 1px solid @border-color;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  z-index: 1;
+  &__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid @border-color;
+    margin-bottom: 20px;
+    cursor: pointer;
+    .icon {
+      font-size: 20px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    position: relative;
+  }
+}

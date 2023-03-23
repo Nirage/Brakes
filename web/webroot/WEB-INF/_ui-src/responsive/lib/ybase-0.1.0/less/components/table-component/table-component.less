@@ -1,0 +1,39 @@
+.table-component {
+  background: red;
+  background-color: @brand-white;
+  margin-bottom: 20px;
+  &.has-border {
+    padding: 20px;
+    border: 1px solid @brand-gray-medium;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  }
+  table {
+    width: 100%;
+    .font-primary;
+    tr {
+      border-bottom: 1px solid @brand-gray-medium;
+
+      margin-bottom: 10px;
+    }
+    th,
+    td {
+      padding: 10px 0;
+    }
+    td {
+      font-size: 18px;
+    }
+  }
+  thead {
+    th {
+      font-size: 24px;
+    }
+  }
+  tbody {
+    th {
+      font-size: 18px;
+      .font-primary-bold;
+    }
+  }
+}

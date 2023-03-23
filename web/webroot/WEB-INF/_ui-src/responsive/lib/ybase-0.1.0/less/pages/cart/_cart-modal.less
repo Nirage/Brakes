@@ -1,0 +1,74 @@
+@__cart-modal__btn-margin: 20px;
+.cart-modal {
+  .modal-dialog {
+    width: 94%;
+    max-width: 300px;
+  }
+
+  &--lg {
+    .modal-dialog {
+      max-width: 445px;
+    }
+  }
+
+  &__btn-left {
+    float: left;
+    width: calc(~"(50% - 10px)");
+    margin-right: @__cart-modal__btn-margin;
+  }
+
+  &__btn-right {
+    float: right;
+    width: calc(~"(50% - 10px)");
+  }
+
+  &__btn--icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    .icon {
+      margin-right: 3px;
+    }
+  }
+
+  &__btn--mb {
+    margin-bottom: 20px;
+
+    @media (min-width: @screen-sm-min) {
+      margin-bottom: 0;
+    }
+  }
+  .modal-body {
+    max-height: calc(~"100vh - 140px");
+    overflow-y: auto;
+  }
+
+  &__read {
+    .font-primary-bold;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &--promo {
+    .modal-title {
+      .promo__offer-name {
+        color: @brand-warning;
+      }
+    }
+  }
+
+  &--potential-promo {
+    .modal-header {
+      padding: 20px 20px 0;
+    }
+    .modal-body {
+      padding: 20px 20px 0 20px;
+    }
+  }
+}

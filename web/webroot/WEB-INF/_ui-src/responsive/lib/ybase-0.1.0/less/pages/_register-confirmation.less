@@ -1,0 +1,43 @@
+.page-registeronlineaccountconfirmationpage {
+  .backgroundimage-component {
+    @media (max-width: @screen-xs-max) {
+      background-image: none !important;
+    }
+  }
+  .content-wrapper {
+    margin: 0 auto;
+    background-color: @brand-white;
+    @media (min-width: @screen-sm-min) {
+      margin: 120px auto;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 19px;
+    }
+    border-radius: 4px;
+    padding: 40px 0px;
+    @media (min-width: @screen-sm-min) {
+      padding: 40px 102px;
+    }
+
+    max-width: 591px;
+    .site__header {
+      margin-top: 0;
+      margin-bottom: 30px;
+      text-align: left;
+      @media (min-width: @screen-sm-min) {
+        text-align: center;
+      }
+      &--rectangle {
+        margin-left: 0;
+        @media (min-width: @screen-sm-min) {
+          margin-left: auto;
+        }
+      }
+    }
+    .btn {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

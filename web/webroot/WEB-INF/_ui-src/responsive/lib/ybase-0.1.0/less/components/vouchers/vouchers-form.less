@@ -1,0 +1,24 @@
+.vouchers-form {
+  position: relative;
+  &__input-wrap {
+    position: relative;
+  }
+  &__info-button {
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    z-index: 1;
+    padding: 0;
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+      outline: 0 !important;
+    }
+    .icon {
+      font-size: 15px;
+      color: @brand-gray;
+      background-color: @brand-white;
+    }
+  }
+}

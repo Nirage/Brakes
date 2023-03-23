@@ -1,0 +1,5 @@
+**/*.min.js
+**/*jquery*.js
+**/_autoload.js
+web/webroot/_ui/**/*.js
+web/webroot/WEB-INF/_ui-src/responsive/lib/common/**/*.js

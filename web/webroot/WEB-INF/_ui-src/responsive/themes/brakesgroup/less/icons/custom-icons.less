@@ -1,0 +1,112 @@
+@icomoon-font-family: "iconsbrakesgroup";
+@icomoon-font-path: "../fonts";
+
+.icon {
+  font-size: 24px;
+}
+
+.icon--sm {
+  font-size: 18px;
+}
+
+.icon--lg {
+  font-size: 48px;
+}
+
+.icon--xl {
+  font-size: 65px;
+}
+
+.h-circle {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  font-size: 16px;
+  background: @brand-primary;
+  border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  @media (min-width: @screen-sm-min) {
+    width: 26px;
+    height: 26px;
+    font-size: 18px;
+  }
+}
+
+.icon-user-login {
+  &:extend(.h-circle all);
+  &:before {
+    content: @icon-user;
+    color: @brand-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+.icon-user-calendar {
+  &:extend(.h-circle all);
+  &:before {
+    content: @icon-calendar;
+    color: @brand-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.icon-logout {
+  &:before {
+    content: @icon-upload;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: inline-block;
+  }
+}
+.icon-veggie--green {
+  color: @veggie-icon-color;
+  [class^="path"] {
+    &:before {
+      color: @veggie-icon-color;
+    }
+  }
+}
+.icon-promo-alt--red {
+  background: @brand-white;
+  border-radius: 100%;
+  [class^="path"] {
+    &:before {
+      color: @brand-warning;
+    }
+  }
+}
+.icon-new--royal-blue {
+  background: @brand-white;
+  border-radius: 100%;
+  font-size: 25px;
+  &:before {
+    color: @brand-royal-blue;
+  }
+}
+.icon-red-bank-card:before {
+  color: @brand-warning;
+}
+.icon-green-bank-card:before {
+  color: @green;
+}
+.icon-orange-bank-card:before {
+  color: @orange;
+}
+
+.icon-info {
+  transform: rotate(180deg);
+  display: inline-block;
+  &:before {
+    content: @icon-error;
+  }
+}

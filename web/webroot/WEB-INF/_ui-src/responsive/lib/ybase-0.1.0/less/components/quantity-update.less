@@ -1,0 +1,43 @@
+.quantity-update {
+  &__btn,
+  &__input {
+    height: 50px;
+    float: left;
+  }
+
+  &__btn {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    &--minus {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &--plus {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+  &__input {
+    width: 40%;
+    text-align: center;
+    border-radius: 0;
+    &[type="number"] {
+      border: none;
+      border-top: 1px solid @brand-gray-medium;
+      border-bottom: 1px solid @brand-gray-medium;
+      -webkit-appearance: textfield;
+      -moz-appearance: textfield;
+      appearance: textfield;
+      margin: 0;
+      &::-webkit-inner-spin-button,
+      &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+      }
+    }
+  }
+}

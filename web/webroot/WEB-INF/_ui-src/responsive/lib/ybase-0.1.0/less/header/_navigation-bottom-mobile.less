@@ -1,0 +1,36 @@
+.navigation {
+  &--bottom {
+    width: 95vw;
+    position: fixed;
+    //top: 96px; // This needs to be calculated using JS
+    top: -150%;
+    left: 11px;
+    z-index: 9001;
+    height: 100vh;
+    background-color: #fff;
+    -webkit-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    border-color: transparent;
+
+    -webkit-box-shadow: @box-shadow-dark-all-sides;
+    box-shadow: @box-shadow-dark-all-sides;
+    padding: 5px 10px;
+    .offcanvas & {
+      top: 93px;
+    }
+  }
+
+  &__overflow {
+    height: calc(~"100vh - 100px");
+    overflow-y: auto;
+    //wokraround if it doesn't work in some browsers
+    //height: 100vh;
+    //margin-top: -100px;
+    //padding-top: 100px;
+
+    .nav__link {
+      border-bottom: 1px solid @border-color;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,210 @@
+@__mini-basket-component-height: 940px;
+@__mini-basket-height: 910px;
+@__mini-basket-trigger-height: 75px;
+
+@__mini-basket-component-position: -62px;
+@__mini-basket-component-position-search: -15px;
+@__mini-basket-component-position-order: -15px;
+
+.mini-basket__boundary {
+  position: relative;
+}
+
+.mini-basket-component {
+  width: 60px;
+  height: @__mini-basket-trigger-height;
+  position: absolute;
+  top: @__mini-basket-component-position;
+  bottom: auto;
+  right: 11px;
+  z-index: 10;
+
+  &--search-page {
+    top: @__mini-basket-component-position-search;
+  }
+
+  &--order-page {
+    top: @__mini-basket-component-position-order;
+  }
+
+  &.is-scrolling {
+    top: auto;
+    bottom: 0;
+  }
+}
+.mini-basket {
+  width: 60px;
+  position: static;
+
+  &__expand {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: @__mini-basket-trigger-height;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  &__expand-top {
+    height: 50px;
+    background: @brand-primary;
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: @brand-white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  &__expand-bottom {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 17px;
+    clip: rect(33px, 64px, 65px, 0px);
+    background: @brand-primary;
+    color: @brand-white;
+    border-radius: 0 0 50% 50%;
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+
+    .icon {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+
+  &__control {
+    display: none;
+  }
+
+  &__total {
+    position: absolute;
+    background-color: @brand-tertiary;
+    color: @brand-white;
+    right: -15px;
+    top: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  &__spinner-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+  }
+
+  &__spinner {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .is-sticky & {
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+.is-mb-active {
+  .mini-basket-component {
+    right: 0;
+  }
+  .mini-basket {
+    height: 100vh;
+    max-height: @__mini-basket-height;
+    width: 300px;
+    position: relative;
+    border-right: 5px solid @brand-primary;
+
+    &__expand,
+    &__expand-top,
+    &__expand-bottom {
+      display: none;
+    }
+
+    &__control {
+      display: block;
+      height: 60px;
+      width: 60px;
+      clip: rect(30px, 64px, 65px, 0px);
+      background: @brand-primary;
+      color: @brand-white;
+      border-radius: 0 0 50% 50%;
+      -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      right: -5px;
+      bottom: -27px;
+      z-index: -1;
+      cursor: pointer;
+
+      .icon {
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+      }
+    }
+
+    &__total {
+      display: none;
+    }
+
+    &__details {
+      background: @brand-white;
+      -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+      height: 100%;
+    }
+  }
+
+  .is-scrolling .mini-basket {
+    position: absolute;
+  }
+
+  .is-sticky .mini-basket {
+    position: fixed;
+  }
+  .mini-basket-component {
+    height: @__mini-basket-component-height;
+    width: 300px;
+    float: left;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    &--align-right {
+      float: right;
+    }
+  }
+}

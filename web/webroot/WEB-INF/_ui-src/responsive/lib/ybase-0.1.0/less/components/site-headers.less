@@ -1,0 +1,201 @@
+.site-header {
+  text-align: center;
+  &--align-left {
+    text-align: left;
+  }
+  &--align-left-sm {
+    text-align: left;
+    @media (min-width: @screen-sm-min) {
+      text-align: center;
+      .site-header__text {
+        &::after {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  &--margin-bottom {
+    margin-bottom: 40px;
+  }
+  &__text {
+    color: @brand-gray-dark;
+    font-family: @font-primary-bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 20px;
+    word-break: break-word;
+    @media (max-width: @screen-sm-min) {
+      line-height: 60px;
+    }
+    &--underline {
+      &:after {
+        content: '';
+        height: 4px;
+        width: 71px;
+        background-color: @brand-primary;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+      }
+    }
+    &--underline-left {
+      &:after {
+        margin-left: 0;
+      }
+    }
+    &--upsell:after {
+      margin-top: 5px;
+    }
+  }
+  &__subtext {
+    font-size: 16px;
+    margin-top: 15px;
+    margin: 20px auto;
+    display: inline-block;
+    &--full-width {
+      @media (min-width: @screen-md-min) {
+        max-width: 500px;
+      }
+    }
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  &__borderline {
+    display: block;
+    border-bottom: 1px solid @brand-gray-medium;
+  }
+
+  &__readmore,
+  &__readless {
+    .font-primary-bold;
+    cursor: pointer;
+  }
+  &__desc {
+    margin-bottom: 20px;
+    line-height: 1;
+    // Hide content only if JS is enabled
+    &--long-mobile {
+      .js & {
+        @media (max-width: @screen-sm-max) {
+          display: none;
+        }
+      }
+    }
+    &--long-desktop {
+      .js & {
+        @media (min-width: @screen-sm-min) {
+          display: none;
+        }
+      }
+    }
+  }
+  &__h1 {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.site-header-actions {
+  display: inline-block;
+  width: 100%;
+  @media (min-width: @screen-sm-min) {
+    text-align: right;
+  }
+  line-height: 40px;
+  margin-top: 20px;
+  &__btn {
+    &--add-to-basket {
+      width: 100%;
+      @media (min-width: @screen-sm-min) {
+        margin-right: 20px;
+      }
+      float: left;
+    }
+    &--print-list {
+      float: right;
+    }
+    &--add-to-basket,
+    &--print-list {
+      @media (max-width: @screen-xs-max) {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 10px;
+      }
+      @media (min-width: @screen-sm-min) {
+        width: auto;
+        float: auto;
+        float: initial;
+      }
+    }
+  }
+}
+
+// Genric styling for SmartEdit
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: @brand-gray-dark;
+  margin-top: 0;
+  &:after {
+    background: @brand-primary;
+    margin-bottom: 20px;
+  }
+  &.text-center {
+    &::after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+h1,
+h3 {
+  .font-primary-bold;
+}
+h1,
+h2 {
+  &:after {
+    content: '';
+    width: 71px;
+    height: 5px;
+    display: block;
+    margin-top: 10px;
+  }
+}
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 26px;
+}
+h3 {
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.h-nounderline {
+  &::after {
+    display: none !important;
+  }
+}

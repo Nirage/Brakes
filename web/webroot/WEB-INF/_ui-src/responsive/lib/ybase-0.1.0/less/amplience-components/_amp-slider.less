@@ -1,0 +1,30 @@
+.amp-slider {
+  &.owl-theme {
+    .carousel-nav--left {
+      left: 20px;
+    }
+
+    .carousel-nav--right {
+      right: 20px;
+    }
+
+    .owl-item img {
+      @media @tablet {
+        object-fit: cover;
+        width: auto;
+      }
+    }
+
+    .owl-nav {
+      @media @mobile {
+        position: absolute !important;
+        top: calc(~'100% - 50px') !important;
+        width: 100%;
+      }
+    }
+
+    .owl-dots {
+      margin-top: 10px !important;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@__mini-basket-summary-height: 165px;
+
+.mini-basket-summary {
+  background-color: @brand-gray-light;
+  padding: 18px 15px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 22px;
+  min-height: @__mini-basket-summary-height;
+
+  &__items {
+    float: left;
+    padding-left: 3px;
+    font-size: 16px;
+  }
+
+  &__totals {
+    float: right;
+    text-align: right;
+    padding-right: 3px;
+  }
+
+  &__totals-text {
+    font-size: 16px;
+  }
+
+  &__price {
+    .font-primary-bold;
+    font-size: 16px;
+  }
+
+  &__view-full {
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    color: @text-color;
+  }
+
+  &__vat {
+    margin-bottom: 4px;
+  }
+}

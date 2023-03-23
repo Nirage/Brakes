@@ -1,0 +1,60 @@
+.order-filter {
+  text-align: center;
+  .ml1;
+
+  @media @mobile {
+    flex: 1 0 49%;
+    margin-left: 2% !important;
+  }
+
+  &__label {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+
+    @media @tablet {
+      display: inline-block;
+      margin-top: 0;
+      margin-right: 10px;
+      position: relative;
+      top: 3px;
+    }
+  }
+
+  &__btn {
+    .font-primary;
+    font-size: 16px;
+    line-height: 1.75;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 45px;
+    min-width: 150px;
+
+    &:hover {
+      background: @brand-white;
+    }
+
+    .icon {
+      font-size: 20px;
+    }
+
+    @media (min-width: @screen-sm-min) {
+      width: auto;
+    }
+    @media (min-width: @screen-lg-min) {
+      min-width: 244px;
+      padding: 0 14px 0 20px;
+      border-radius: 4px;
+    }
+  }
+
+  &__actions {
+    position: relative;
+
+    @media (min-width: @screen-sm-min) {
+      display: inline-block;
+    }
+  }
+}

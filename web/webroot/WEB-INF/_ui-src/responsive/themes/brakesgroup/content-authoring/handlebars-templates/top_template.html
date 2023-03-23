@@ -1,0 +1,16 @@
+{{#each chooser}}
+  {{#if (test this.[@type] (toRegex ".*/how-to-list")) }} {{> how_to_list }}  {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-text")) }} {{> text_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-leaderboardbanner")) }} {{> leaderboardbanner_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-herobanner")) }} {{> herobanner_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-card.json")) }} {{> card_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-card-list")) }} {{> cardlist_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-splitblock")) }} {{> splitblock_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-video")) }} {{> video_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-accordion")) }} {{> accordion_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/accelerator-slider")) }} {{> slider_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/sidebarcomponent")) }} {{> sidebar_template }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/splitblock")) }} {{> splitblock_template_internal }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/card-list")) }} {{> cardlist_template_internal }} {{/if}}
+  {{#if (test this.[@type] (toRegex ".*/hero-banner")) }} {{> hero-banner_template_internal }} {{/if}}
+{{/each}}
